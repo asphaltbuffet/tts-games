@@ -3,15 +3,15 @@
   "GameMode": "Hero Realms Script",
   "Gravity": 0.5,
   "PlayArea": 0.5,
-  "Date": "4/17/2018 11:13:37 PM",
+  "Date": "4/13/2020 12:59:04 PM",
   "Table": "Table_Custom",
   "TableURL": "http://i.imgur.com/8gw4ygu.jpg",
   "Sky": "Sky_Museum",
   "SkyURL": "http://i.imgur.com/0SPRr5J.jpg",
   "Note": "",
   "Rules": "",
-  "XmlUI": "",
-  "LuaScript": "\nfunction onLoad()\n \nend\n\n\n\nfunction onUpdate ()\n    \nend\n\n\nfunction repartir(numeroCartas)\n    mazo = getMazo(\"344f75\")\n    if pcall(comprobarCantidadMazo,mazo,numeroCartas[1]) then\n\n    else \n        recuperarDescartes(mazo,numeroCartas[1])\n    end\n\nend\n\n\nfunction getMazo(ID)\n    zonaMazo = getObjectFromGUID(ID)\n    tablaMazo = zonaMazo.getObjects()\n    return tablaMazo[1]\nend\n\n\nfunction comprobarCantidadMazo(mazo,numeroCartas)\n\n    if unexpected_condition then error() end\n    contador = 0\n\n    for k,card in ipairs(mazo.getObjects()) do\r\n        contador = contador+1\r\n    end\n\n    if numeroCartas > contador then\n        recuperarDescartes(mazo,numeroCartas)\n    else\n        repartirMano(mazo,numeroCartas)\n    end\n\n    \n\nend\n\nfunction recuperarDescartes(mazo,numeroCartas)\n    posicionMazo = mazo.getPosition()\n    descartes = getMazo(\"73430b\")\n    descartes.flip()\n    descartes.randomize()\n    descartes.setPosition(posicionMazo)\n    posicionMazo.y = 10\n    mazo.setPosition(posicionMazo)\n    --mazoNuevo = getMazo(\"110203\")\n    --repartirMano(mazoNuevo,numeroCartas)\n\nend\n\n\nfunction repartirMano(mazo,numeroCartas)\n    if unexpected_condition then error() end\n    targetPos, targetRot = mazo.getPosition(), mazo.getRotation()\n    targetPos.y = 3\n    targetPos.x = targetPos.x + 8\n    for i=1, numeroCartas do\r\n        mazo.takeObject({index = 0, position = targetPos, rotation = targetRot, flip=true})\n        targetPos.x = targetPos.x + 6\r\n    end\n\nend\n\n\nfunction repartir2(numeroCartas)\n    mazo = getMazo(\"90b48b\")\n    if pcall(comprobarCantidadMazo2,mazo,numeroCartas[1]) then\n\n    else \n        recuperarDescartes2(mazo,numeroCartas[1])\n    end\n\nend\n\n\nfunction comprobarCantidadMazo2(mazo,numeroCartas)\n\n    if unexpected_condition then error() end\n    contador = 0\n\n    for k,card in ipairs(mazo.getObjects()) do\r\n        contador = contador+1\r\n    end\n\n    if numeroCartas > contador then\n        recuperarDescartes2(mazo,numeroCartas)\n    else\n        repartirMano2(mazo,numeroCartas)\n    end\n\nend\n\n\nfunction recuperarDescartes2(mazo,numeroCartas)\n    posicionMazo = mazo.getPosition()\n    descartes = getMazo(\"52b37f\")\n    descartes.flip()\n    descartes.randomize()\n    descartes.setPosition(posicionMazo)\n    posicionMazo.y = 10\n    mazo.setPosition(posicionMazo)\n    \n    --mazoNuevo = getMazo(\"110203\")\n    --repartirMano(mazoNuevo,numeroCartas)\n\nend\n\n\nfunction repartirMano2(mazo,numeroCartas)\n\n    targetPos, targetRot = mazo.getPosition(), mazo.getRotation()\n    targetPos.y = 3\n    targetPos.x = targetPos.x - 8\n\n    for i=1, numeroCartas do\r\n        mazo.takeObject({index = 0, position = targetPos, rotation = targetRot,flip=true})\n        targetPos.x = targetPos.x - 6\r\n    end\n\nend\n",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "\nfunction onLoad()\n \nend\n\n\n\nfunction onUpdate ()\n    \nend\n\n\nfunction repartir(numeroCartas)\n    mazo = getMazo(\"344f75\")\n    if pcall(comprobarCantidadMazo,mazo,numeroCartas[1]) then\n\n    else \n        recuperarDescartes(mazo,numeroCartas[1])\n    end\n\nend\n\n\nfunction getMazo(ID)\n    zonaMazo = getObjectFromGUID(ID)\n    tablaMazo = zonaMazo.getObjects()\n    return tablaMazo[1]\nend\n\n\nfunction comprobarCantidadMazo(mazo,numeroCartas)\n\n    if unexpected_condition then error() end\n    contador = 0\n\n    for k,card in ipairs(mazo.getObjects()) do\r\n        contador = contador+1\r\n    end\n\n    if numeroCartas > contador then\n        recuperarDescartes(mazo,numeroCartas)\n    else\n        repartirMano(mazo,numeroCartas)\n    end\n\n    \n\nend\n\nfunction recuperarDescartes(mazo,numeroCartas)\n    posicionMazo = mazo.getPosition()\n    descartes = getMazo(\"73430b\")\n    descartes.flip()\n    descartes.randomize()\n    descartes.setPosition(posicionMazo)\n    posicionMazo.y = 10\n    mazo.setPosition(posicionMazo)\n    --mazoNuevo = getMazo(\"110203\")\n    --repartirMano(mazoNuevo,numeroCartas)\n\nend\n\n\nfunction repartirMano(mazo,numeroCartas)\n    if unexpected_condition then error() end\n    targetPos, targetRot = mazo.getPosition(), mazo.getRotation()\n    targetPos.y = 3\n    targetPos.x = targetPos.x + 8\n    for i=1, numeroCartas do\r\n        mazo.takeObject({index = 0, position = targetPos, rotation = targetRot, flip=true})\n        targetPos.x = targetPos.x + 6\r\n    end\n\nend\n\n\nfunction repartir2(numeroCartas)\n    mazo = getMazo(\"90b48b\")\n    if pcall(comprobarCantidadMazo2,mazo,numeroCartas[1]) then\n\n    else \n        recuperarDescartes2(mazo,numeroCartas[1])\n    end\n\nend\n\n\nfunction comprobarCantidadMazo2(mazo,numeroCartas)\n\n    if unexpected_condition then error() end\n    contador = 0\n\n    for k,card in ipairs(mazo.getObjects()) do\r\n        contador = contador+1\r\n    end\n\n    if numeroCartas > contador then\n        recuperarDescartes2(mazo,numeroCartas)\n    else\n        repartirMano2(mazo,numeroCartas)\n    end\n\nend\n\n\nfunction recuperarDescartes2(mazo,numeroCartas)\n    posicionMazo = mazo.getPosition()\n    descartes = getMazo(\"52b37f\")\n    descartes.flip()\n    descartes.randomize()\n    descartes.setPosition(posicionMazo)\n    posicionMazo.y = 10\n    mazo.setPosition(posicionMazo)\n    \n    --mazoNuevo = getMazo(\"110203\")\n    --repartirMano(mazoNuevo,numeroCartas)\n\nend\n\n\nfunction repartirMano2(mazo,numeroCartas)\n\n    targetPos, targetRot = mazo.getPosition(), mazo.getRotation()\n    targetPos.y = 3\n    targetPos.x = targetPos.x - 8\n\n    for i=1, numeroCartas do\r\n        mazo.takeObject({index = 0, position = targetPos, rotation = targetRot,flip=true})\n        targetPos.x = targetPos.x - 6\r\n    end\n\nend",
   "LuaScriptState": "",
   "Grid": {
     "Type": 0,
@@ -70,29 +70,29 @@
       {
         "Color": "Red",
         "Transform": {
-          "posX": 54.42437,
-          "posY": 2.8164897,
-          "posZ": -14.6556807,
+          "posX": -1.424674,
+          "posY": 4.187097,
+          "posZ": -31.9844341,
           "rotX": 0.0,
-          "rotY": 6.24532549E-05,
+          "rotY": 9.19801751E-05,
           "rotZ": 0.0,
-          "scaleX": 5.17539167,
+          "scaleX": 48.0304451,
           "scaleY": 7.0,
-          "scaleZ": 20.4901581
+          "scaleZ": 8.91231251
         }
       },
       {
         "Color": "Blue",
         "Transform": {
-          "posX": 52.89254,
-          "posY": 2.8164897,
-          "posZ": 18.89675,
+          "posX": 4.2108984,
+          "posY": 4.187097,
+          "posZ": 31.6801338,
           "rotX": 0.0,
-          "rotY": 6.24532549E-05,
+          "rotY": 9.19801751E-05,
           "rotZ": 0.0,
-          "scaleX": 6.33797932,
+          "scaleX": 46.5824165,
           "scaleY": 7.0,
-          "scaleZ": 14.7862549
+          "scaleZ": 8.823596
         }
       }
     ]
@@ -107,17 +107,16 @@
     "PassTurns": true,
     "TurnColor": ""
   },
-  "VectorLines": [],
   "ObjectStates": [
     {
       "Name": "Bag",
       "Transform": {
-        "posX": -47.50777,
-        "posY": 0.6876718,
-        "posZ": 5.141692,
-        "rotX": -1.77592062E-06,
-        "rotY": 0.0007288759,
-        "rotZ": 7.487082E-07,
+        "posX": -47.5077667,
+        "posY": 0.687672,
+        "posZ": 5.141694,
+        "rotX": 3.821973E-06,
+        "rotY": 0.000682171842,
+        "rotZ": -3.218099E-07,
         "scaleX": 1.49999964,
         "scaleY": 1.49999964,
         "scaleZ": 1.49999964
@@ -138,6 +137,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "MaterialIndex": -1,
       "MeshIndex": -1,
@@ -4268,7 +4268,7 @@
     {
       "Name": "3DText",
       "Transform": {
-        "posX": -34.0805321,
+        "posX": -34.080555,
         "posY": 0.9611337,
         "posZ": -24.880106,
         "rotX": 90.0,
@@ -4294,9 +4294,10 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "Text": {
-        "Text": "Mazo",
+        "Text": "Hand",
         "colorstate": {
           "r": 1.0,
           "g": 1.0,
@@ -4402,7 +4403,7 @@
         "g": 1.0,
         "b": 1.0
       },
-      "Locked": false,
+      "Locked": true,
       "Grid": true,
       "Snap": true,
       "IgnoreFoW": false,
@@ -4446,9 +4447,10 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "Text": {
-        "Text": "Descartes",
+        "Text": "Discard",
         "colorstate": {
           "r": 1.0,
           "g": 1.0,
@@ -4464,9 +4466,9 @@
     {
       "Name": "3DText",
       "Transform": {
-        "posX": -31.8458481,
+        "posX": -31.8458786,
         "posY": 0.9611408,
-        "posZ": 0.158935636,
+        "posZ": 0.158935562,
         "rotX": 90.0,
         "rotY": 90.6311,
         "rotZ": 0.0,
@@ -4490,9 +4492,10 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "Text": {
-        "Text": "Eliminadas",
+        "Text": "Eliminated",
         "colorstate": {
           "r": 0.118,
           "g": 0.53,
@@ -4509,7 +4512,7 @@
       "Name": "3DText",
       "Transform": {
         "posX": 30.01795,
-        "posY": 0.961146533,
+        "posY": 0.961146653,
         "posZ": 24.4691372,
         "rotX": 90.0,
         "rotY": 180.238922,
@@ -4534,9 +4537,10 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "Text": {
-        "Text": "Mazo",
+        "Text": "Hand",
         "colorstate": {
           "r": 1.0,
           "g": 1.0,
@@ -4552,7 +4556,7 @@
     {
       "Name": "3DText",
       "Transform": {
-        "posX": -38.0077057,
+        "posX": -38.00773,
         "posY": 0.961145163,
         "posZ": 24.4941654,
         "rotX": 90.0,
@@ -4578,9 +4582,10 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "Text": {
-        "Text": "Descartes",
+        "Text": "Discard",
         "colorstate": {
           "r": 1.0,
           "g": 1.0,
@@ -4606,7 +4611,7 @@
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Repartir 1 carta",
+      "Nickname": "Deal 1 card",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -4642,7 +4647,7 @@
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Repartir 2 cartas",
+      "Nickname": "Deal 2 cards",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -4678,7 +4683,7 @@
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Repartir 3 cartas",
+      "Nickname": "Deal 3 cards",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -4714,7 +4719,7 @@
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Repartir 4 cartas",
+      "Nickname": "Deal 4 cards",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -4750,7 +4755,7 @@
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Repartir 5 cartas",
+      "Nickname": "Deal 5 cards",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -4777,11 +4782,11 @@
       "Name": "Deck",
       "Transform": {
         "posX": 19.0214138,
-        "posY": 1.0481174,
+        "posY": 1.04811728,
         "posZ": -0.0105935186,
-        "rotX": -4.97950232E-08,
+        "rotX": -2.78377037E-08,
         "rotY": 179.9764,
-        "rotZ": -1.23186373E-06,
+        "rotZ": -8.571592E-08,
         "scaleX": 1.81955469,
         "scaleY": 1.0,
         "scaleZ": 1.81955469
@@ -4802,6 +4807,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": false,
       "SidewaysCard": false,
       "DeckIDs": [
@@ -5580,8 +5586,8 @@
       "Transform": {
         "posX": -22.9772568,
         "posY": 1.38288021,
-        "posZ": -0.0241733082,
-        "rotX": -1.10099791E-06,
+        "posZ": -0.024173364,
+        "rotX": -1.80321379E-07,
         "rotY": 179.999741,
         "rotZ": 180.0,
         "scaleX": 1.81955469,
@@ -5604,6 +5610,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": false,
       "SidewaysCard": false,
       "DeckIDs": [
@@ -9237,11 +9244,11 @@
       "Name": "Card",
       "Transform": {
         "posX": -14.0170851,
-        "posY": 1.03171372,
+        "posY": 1.0317136,
         "posZ": 0.07099829,
-        "rotX": -1.64005291E-06,
+        "rotX": 2.4614037E-08,
         "rotY": 180.000015,
-        "rotZ": -1.73517E-06,
+        "rotZ": -1.07610472E-08,
         "scaleX": 1.81955469,
         "scaleY": 1.0,
         "scaleZ": 1.81955469
@@ -9262,6 +9269,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": true,
       "CardID": 425,
       "SidewaysCard": false,
@@ -9286,9 +9294,9 @@
         "posX": -8.045206,
         "posY": 1.0317136,
         "posZ": 0.04976201,
-        "rotX": -1.08680626E-06,
+        "rotX": 4.01786764E-08,
         "rotY": 180.000061,
-        "rotZ": 2.2622346E-06,
+        "rotZ": 3.05945E-08,
         "scaleX": 1.81955469,
         "scaleY": 1.0,
         "scaleZ": 1.81955469
@@ -9309,6 +9317,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": true,
       "CardID": 418,
       "SidewaysCard": false,
@@ -9332,10 +9341,10 @@
       "Transform": {
         "posX": -2.028709,
         "posY": 1.0317136,
-        "posZ": 0.00561146671,
-        "rotX": -9.093657E-09,
+        "posZ": 0.00561146624,
+        "rotX": 7.363379E-08,
         "rotY": 180.000519,
-        "rotZ": -5.61826164E-06,
+        "rotZ": -1.5953114E-07,
         "scaleX": 1.81955469,
         "scaleY": 1.0,
         "scaleZ": 1.81955469
@@ -9356,6 +9365,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": true,
       "CardID": 420,
       "SidewaysCard": false,
@@ -9380,9 +9390,9 @@
         "posX": 10.0083494,
         "posY": 1.0317136,
         "posZ": 0.0249504577,
-        "rotX": 1.35067026E-07,
+        "rotX": 2.81030954E-09,
         "rotY": 180.0001,
-        "rotZ": 4.432466E-06,
+        "rotZ": -3.330355E-08,
         "scaleX": 1.81955469,
         "scaleY": 1.0,
         "scaleZ": 1.81955469
@@ -9403,6 +9413,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": true,
       "CardID": 325,
       "SidewaysCard": false,
@@ -9440,7 +9451,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -9450,6 +9462,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -9475,7 +9488,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -9485,6 +9499,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -9510,7 +9525,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -9520,6 +9536,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -9532,8 +9549,8 @@
         "posX": 30.0,
         "posY": 1.03646612,
         "posZ": 21.0002422,
-        "rotX": 3.370017E-07,
-        "rotY": -5.168035E-09,
+        "rotX": 3.275346E-08,
+        "rotY": -5.72167247E-09,
         "rotZ": 180.0,
         "scaleX": 1.81955469,
         "scaleY": 1.0,
@@ -9555,6 +9572,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": false,
       "SidewaysCard": false,
       "DeckIDs": [
@@ -10085,6 +10103,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "MeshIndex": 1,
       "XmlUI": "",
@@ -10111,7 +10130,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -10121,6 +10141,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -10156,10 +10177,11 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "MeshIndex": 1,
       "XmlUI": "",
-      "LuaScript": "function onLoad()\n    self.createButton({\r\n      label=\"\", click_function=\"descartar\", function_owner=self,\r\n      position={0,0,0}, height=550, width=550, font_size=0, rotation={0,0,0}\r\n    })\nend\n\nfunction descartar()\n\n    zonaCartas = getObjectFromGUID(\"959113\")\n    tablaCartas = zonaCartas.getObjects()\n    local posicionDescartes = {x = -38, y = 5, z = 21}\n\n    for k,card in ipairs(tablaCartas) do\r \r\n        card.setPosition(posicionDescartes)\r\n    end\n    \nend",
+      "LuaScript": "function onLoad()\n    self.createButton({\r\n      label=\"\", click_function=\"descartar\", function_owner=self,\r\n      position={0,0,0}, height=550, width=550, font_size=0, rotation={0,0,0}\r\n    })\nend\n\nfunction descartar()\n\n    zonaCartas = getObjectFromGUID(\"959113\")\n    tablaCartas = zonaCartas.getObjects()\n    local posicionDescartes = {x = -38, y = 5, z = 21}\n\n    for k,card in ipairs(tablaCartas) do\r\r\n        card.setPosition(posicionDescartes)\r\n    end\n\nend\n",
       "LuaScriptState": "",
       "GUID": "7a2c07"
     },
@@ -10182,7 +10204,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -10192,6 +10215,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -10217,7 +10241,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -10227,6 +10252,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -10252,7 +10278,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -10262,6 +10289,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -10272,11 +10300,11 @@
       "Name": "Die_20",
       "Transform": {
         "posX": -35.2697029,
-        "posY": 1.37810528,
-        "posZ": -0.933398068,
-        "rotX": 349.1877,
-        "rotY": 218.164963,
-        "rotZ": 233.999985,
+        "posY": 1.37810588,
+        "posZ": -0.9333985,
+        "rotX": 349.187775,
+        "rotY": 218.16507,
+        "rotZ": 233.999863,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -10297,6 +10325,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "AltSound": true,
       "MaterialIndex": 1,
@@ -10496,6 +10525,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "Counter": {
         "value": 50
@@ -10509,7 +10539,7 @@
       "Name": "Counter",
       "Transform": {
         "posX": 39.5742836,
-        "posY": 0.93,
+        "posY": 0.930000067,
         "posZ": -22.0812244,
         "rotX": -2.92460822E-06,
         "rotY": 8.842511E-06,
@@ -10534,6 +10564,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "Counter": {
         "value": 50
@@ -10547,9 +10578,9 @@
       "Name": "Deck",
       "Transform": {
         "posX": -34.0,
-        "posY": 1.036466,
+        "posY": 1.03646612,
         "posZ": -20.96086,
-        "rotX": -1.01744874E-07,
+        "rotX": -7.48502558E-08,
         "rotY": 180.0,
         "rotZ": 180.0,
         "scaleX": 1.81955469,
@@ -10572,6 +10603,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": false,
       "SidewaysCard": false,
       "DeckIDs": [
@@ -10603,198 +10635,10 @@
         {
           "Name": "Card",
           "Transform": {
-            "posX": -13.9860649,
-            "posY": 3.132454,
-            "posZ": -20.9325352,
-            "rotX": 1.01777755E-12,
-            "rotY": 180.0,
-            "rotZ": 102.310822,
-            "scaleX": 1.81955469,
-            "scaleY": 1.0,
-            "scaleZ": 1.81955469
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "Hands": true,
-          "CardID": 403,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "4": {
-              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-              "NumWidth": 6,
-              "NumHeight": 5,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "XmlUI": "",
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "2d474f"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -19.98603,
-            "posY": 1.18200588,
-            "posZ": -20.932497,
-            "rotX": 359.994232,
-            "rotY": 179.999329,
-            "rotZ": 180.002869,
-            "scaleX": 1.81955469,
-            "scaleY": 1.0,
-            "scaleZ": 1.81955469
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "Hands": true,
-          "CardID": 403,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "4": {
-              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-              "NumWidth": 6,
-              "NumHeight": 5,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "XmlUI": "",
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "2dcea0"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -19.9860344,
-            "posY": 1.19592667,
-            "posZ": -20.9325027,
-            "rotX": -0.00273532467,
-            "rotY": 179.999344,
-            "rotZ": 180.001434,
-            "scaleX": 1.81955469,
-            "scaleY": 1.0,
-            "scaleZ": 1.81955469
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "Hands": true,
-          "CardID": 403,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "4": {
-              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-              "NumWidth": 6,
-              "NumHeight": 5,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "XmlUI": "",
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "b0dbfd"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -19.9860382,
-            "posY": 1.03451979,
-            "posZ": -20.93251,
-            "rotX": -0.0005602656,
-            "rotY": 179.999344,
-            "rotZ": 180.00032,
-            "scaleX": 1.81955469,
-            "scaleY": 1.0,
-            "scaleZ": 1.81955469
-          },
-          "Nickname": "",
-          "Description": "",
-          "GMNotes": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "Hands": true,
-          "CardID": 400,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "4": {
-              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-              "NumWidth": 6,
-              "NumHeight": 5,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "XmlUI": "",
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "f17dab"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -7.986038,
-            "posY": 1.03453648,
-            "posZ": -20.93251,
-            "rotX": -3.76899649E-08,
+            "posX": -34.0,
+            "posY": 1.03646612,
+            "posZ": -20.96086,
+            "rotX": -5.90550435E-08,
             "rotY": 180.0,
             "rotZ": 180.0,
             "scaleX": 1.81955469,
@@ -10817,6 +10661,199 @@
           "Sticky": true,
           "Tooltip": true,
           "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2d474f"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -34.0,
+            "posY": 1.03646612,
+            "posZ": -20.96086,
+            "rotX": -5.90550435E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2dcea0"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -34.0,
+            "posY": 1.03646612,
+            "posZ": -20.96086,
+            "rotX": -5.90550435E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b0dbfd"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -34.0,
+            "posY": 1.03646612,
+            "posZ": -20.96086,
+            "rotX": -5.90550435E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 400,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f17dab"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -34.0,
+            "posY": 1.036466,
+            "posZ": -20.96086,
+            "rotX": 5.86501E-09,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
           "Hands": true,
           "CardID": 403,
           "SidewaysCard": false,
@@ -11092,7 +11129,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11102,6 +11140,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -11114,9 +11153,9 @@
         "posX": 3.97089386,
         "posY": 1.0317136,
         "posZ": 0.0382979065,
-        "rotX": -7.135385E-07,
+        "rotX": -3.775997E-08,
         "rotY": 180.0,
-        "rotZ": -1.04919457E-06,
+        "rotZ": -1.02306439E-08,
         "scaleX": 1.81955469,
         "scaleY": 1.0,
         "scaleZ": 1.81955469
@@ -11137,6 +11176,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": true,
       "Hands": true,
       "CardID": 416,
       "SidewaysCard": false,
@@ -11174,7 +11214,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11184,6 +11225,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -11203,7 +11245,7 @@
         "scaleY": 1.49999964,
         "scaleZ": 1.49999964
       },
-      "Nickname": "Recuperar descartes",
+      "Nickname": "Recoup Discard",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -11219,6 +11261,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "function onLoad()\n    self.createButton({\r\n      label=\"\", click_function=\"recuperarDescartes\", function_owner=self,\r\n      position={0,0,0}, height=350, width=350, font_size=0, rotation={0,0,0}\r\n    })\nend\n\nfunction recuperarDescartes()\n    descartes = getMazo(\"73430b\")\n    descartes.flip()\n    descartes.randomize()\n    posicion = descartes.getPosition()\n    posicion.x = -34\n    posicion.y = 10\n    descartes.setPosition(posicion)\nend\n\nfunction getMazo(ID)\n    zonaMazo = getObjectFromGUID(ID)\n    tablaMazo = zonaMazo.getObjects()\n    return tablaMazo[1]\nend",
@@ -11238,7 +11281,7 @@
         "scaleY": 1.49999964,
         "scaleZ": 1.49999964
       },
-      "Nickname": "Recuperar descartes",
+      "Nickname": "Recoup Discard",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -11254,6 +11297,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "function onLoad()\n    self.createButton({\r\n      label=\"\", click_function=\"recuperarDescartes\", function_owner=self,\r\n      position={0,0,0}, height=350, width=350, font_size=0, rotation={0,0,0}\r\n    })\nend\n\nfunction recuperarDescartes()\n    descartes = getMazo(\"52b37f\")\n    descartes.flip()\n    descartes.randomize()\n    posicion = descartes.getPosition()\n    posicion.x = 30\n    posicion.y = 10\n    descartes.setPosition(posicion)\nend\n\nfunction getMazo(ID)\n    zonaMazo = getObjectFromGUID(ID)\n    tablaMazo = zonaMazo.getObjects()\n    return tablaMazo[1]\nend",
@@ -11279,7 +11323,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11289,6 +11334,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -11314,7 +11360,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11324,6 +11371,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -11349,7 +11397,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11359,6 +11408,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -11384,7 +11434,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11394,6 +11445,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -11419,7 +11471,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11429,6 +11482,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -11448,7 +11502,7 @@
         "scaleY": 2.249999,
         "scaleZ": 2.249999
       },
-      "Nickname": "Repartir mercado",
+      "Nickname": "Repair Market",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -11464,6 +11518,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "function onLoad()\n    self.createButton({\r\n      label=\"\", click_function=\"repartirMercado\", function_owner=self,\r\n      position={0,0,0}, height=325, width=325, font_size=0, rotation={0,0,0}\r\n    })\nend\n\nfunction repartirMercado()\n    mazoMercado = getMazo(\"964ce4\")\n    posicionMazoMercado = mazoMercado.getPosition()\n    carta1 = getMazo(\"1fa492\")\n    carta2 = getMazo(\"7b55e1\")\n    carta3 = getMazo(\"57473f\")\n    carta4 = getMazo(\"f74dfe\")\n    carta5 = getMazo(\"a61b5b\")\n\n    if carta1 == nil then\n        posicionMazoMercado.x = -14\n        mazoMercado.takeObject({index = 0, position = posicionMazoMercado, flip=true})\n    end\n\n    if carta2 == nil then\n        posicionMazoMercado.x = -8\n        mazoMercado.takeObject({index = 0, position = posicionMazoMercado, flip=true})\n    end\n\n    if carta3 == nil then\n        posicionMazoMercado.x = -2\n        mazoMercado.takeObject({index = 0, position = posicionMazoMercado, flip=true})\n    end\n\n    if carta4 == nil then\n        posicionMazoMercado.x = 4\n        mazoMercado.takeObject({index = 0, position = posicionMazoMercado, flip=true})\n    end\n\n    if carta5 == nil then\n        posicionMazoMercado.x = 10\n        mazoMercado.takeObject({index = 0, position = posicionMazoMercado, flip=true})\n    end\n\nend\n\nfunction getMazo(ID)\n    zonaMazo = getObjectFromGUID(ID)\n    tablaMazo = zonaMazo.getObjects()\n    return tablaMazo[1]\nend",
@@ -11489,7 +11544,8 @@
       "ColorDiffuse": {
         "r": 1.0,
         "g": 1.0,
-        "b": 1.0
+        "b": 1.0,
+        "a": 0.509803951
       },
       "Locked": true,
       "Grid": true,
@@ -11499,6 +11555,7 @@
       "Sticky": true,
       "Tooltip": true,
       "GridProjection": false,
+      "HideWhenFaceDown": false,
       "Hands": false,
       "XmlUI": "",
       "LuaScript": "",
@@ -12091,5 +12148,5 @@
       "id": 11
     }
   },
-  "VersionNumber": "v10.4"
+  "VersionNumber": "v12.3.5"
 }
