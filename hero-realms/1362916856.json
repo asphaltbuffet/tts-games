@@ -3,7 +3,7 @@
   "GameMode": "Hero Realms Script",
   "Gravity": 0.5,
   "PlayArea": 0.5,
-  "Date": "4/13/2020 9:36:24 PM",
+  "Date": "4/13/2020 9:43:01 PM",
   "Table": "Table_Custom",
   "TableURL": "http://i.imgur.com/8gw4ygu.jpg",
   "Sky": "Sky_Museum",
@@ -11006,6 +11006,4270 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "GUID": "964ce4"
+    },
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -41.3123474,
+        "posY": 1.16494524,
+        "posZ": -7.067137,
+        "rotX": -2.1230386e-07,
+        "rotY": 89.99999,
+        "rotZ": -2.89968e-07,
+        "scaleX": 0.625,
+        "scaleY": 0.146185726,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Cleric Character Box",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992168248,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+        "DiffuseURL": "http://i.imgur.com/NhwE0Vf.png",
+        "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": -41.7395325,
+            "posY": 1.26084089,
+            "posZ": -1.34567094,
+            "rotX": 0.009305777,
+            "rotY": 179.999359,
+            "rotZ": 0.0113706756,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "Cleric",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            403,
+            403,
+            403,
+            403,
+            403,
+            403,
+            507,
+            508,
+            505,
+            506,
+            503,
+            504,
+            502,
+            509,
+            501,
+            500
+          ],
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            },
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -35.14,
+                "posY": 1.0317136,
+                "posZ": 10.04,
+                "rotX": 5.32189745e-07,
+                "rotY": 180.000031,
+                "rotZ": 1.12508573e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "2ea5ff"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -34.6549225,
+                "posY": 1.18305421,
+                "posZ": 9.390691,
+                "rotX": -1.309288e-06,
+                "rotY": 180.000031,
+                "rotZ": -1.84561372e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f4bd65"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -34.88726,
+                "posY": 1.20032346,
+                "posZ": 9.856756,
+                "rotX": 2.38728285e-06,
+                "rotY": 180.000031,
+                "rotZ": 2.15655314e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d1d293"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -34.5060539,
+                "posY": 1.18665147,
+                "posZ": 10.3566294,
+                "rotX": -2.805278e-08,
+                "rotY": 180.000031,
+                "rotZ": -3.005074e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "e1fc37"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -35.2733154,
+                "posY": 1.1846441,
+                "posZ": 10.6612978,
+                "rotX": -4.61575183e-07,
+                "rotY": 180.000031,
+                "rotZ": 2.43003683e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "634d78"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -35.1560173,
+                "posY": 1.1873039,
+                "posZ": 10.5065546,
+                "rotX": -7.680844e-07,
+                "rotY": 180.000031,
+                "rotZ": -3.10090354e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "adf9b3"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.9059544,
+                "posY": 1.17360854,
+                "posZ": 10.4830637,
+                "rotX": -2.98604164e-06,
+                "rotY": 180.000015,
+                "rotZ": 179.960861,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 507,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "ed519b"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.60742,
+                "posY": 1.1621716,
+                "posZ": 10.3528824,
+                "rotX": -3.3805577e-07,
+                "rotY": 180.000015,
+                "rotZ": 180.016281,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 508,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fecf68"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -30.1200142,
+                "posY": 1.0317136,
+                "posZ": 10.04,
+                "rotX": 4.63707977e-07,
+                "rotY": 180,
+                "rotZ": -8.387541e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 505,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "0b548e"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -30.314579,
+                "posY": 1.18305433,
+                "posZ": 10.069459,
+                "rotX": 2.214515e-06,
+                "rotY": 180.000015,
+                "rotZ": -4.295026e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 506,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f932f2"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -40.2974777,
+                "posY": 1.20399308,
+                "posZ": 20.2864857,
+                "rotX": 1.159737e-05,
+                "rotY": 180.000015,
+                "rotZ": 180.179047,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 503,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "926d9c"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -40.2132874,
+                "posY": 1.215062,
+                "posZ": 19.9553375,
+                "rotX": -1.60023512e-06,
+                "rotY": 180.000015,
+                "rotZ": 180.476425,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 504,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "e6f28d"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -39.6705666,
+                "posY": 1.19356215,
+                "posZ": 20.17229,
+                "rotX": -1.79565473e-06,
+                "rotY": 180.000015,
+                "rotZ": 180.026611,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 502,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "0842c1"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -40.0930862,
+                "posY": 1.28513682,
+                "posZ": 20.10035,
+                "rotX": 1.66961634,
+                "rotY": 180.000153,
+                "rotZ": 180.00502,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 509,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fe19f6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -39.81849,
+                "posY": 1.18619692,
+                "posZ": 20.1423378,
+                "rotX": 1.71130132e-08,
+                "rotY": 180.000015,
+                "rotZ": 179.99231,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 501,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "891be9"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -41.13642,
+                "posY": 1.22129393,
+                "posZ": 7.60163546,
+                "rotX": -0.0009328147,
+                "rotY": 179.999451,
+                "rotZ": -0.00141802,
+                "scaleX": 1.81955469,
+                "scaleY": 1,
+                "scaleZ": 1.81955469
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 500,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "5": {
+                  "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fe8075"
+            }
+          ],
+          "GUID": "a7f9d1"
+        }
+      ],
+      "GUID": "dde608"
+    },
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -41.2473145,
+        "posY": 1.16494524,
+        "posZ": -4.220206,
+        "rotX": 1.22075551e-06,
+        "rotY": 89.9856,
+        "rotZ": 3.79860217e-06,
+        "scaleX": 0.625,
+        "scaleY": 0.146185726,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Thief Character Box",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992168248,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+        "DiffuseURL": "http://i.imgur.com/NhwE0Vf.png",
+        "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": -23.0176334,
+            "posY": 1.20125949,
+            "posZ": 6.97955227,
+            "rotX": 1.76057673,
+            "rotY": 179.997131,
+            "rotZ": 359.936676,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "Thief",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            403,
+            403,
+            403,
+            403,
+            403,
+            400,
+            400,
+            615,
+            615,
+            615,
+            614,
+            613,
+            611,
+            612,
+            610,
+            609
+          ],
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            },
+            "6": {
+              "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.110239,
+                "posY": 1.0317136,
+                "posZ": 5.020013,
+                "rotX": 1.96060085e-07,
+                "rotY": 179.99971,
+                "rotZ": -7.178211e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "22db30"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.66247,
+                "posY": 1.22062933,
+                "posZ": 5.07515,
+                "rotX": -1.64209567e-07,
+                "rotY": 180.000015,
+                "rotZ": 358.621,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.09979,
+                "posY": 1.30441988,
+                "posZ": 5.019987,
+                "rotX": 4.28597668e-05,
+                "rotY": 179.9995,
+                "rotZ": 356.8648,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.3479576,
+                "posY": 1.219463,
+                "posZ": 4.86519957,
+                "rotX": -6.96663136e-08,
+                "rotY": 180.000015,
+                "rotZ": 359.4153,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.3339424,
+                "posY": 1.2222836,
+                "posZ": 4.831514,
+                "rotX": -1.46655225e-07,
+                "rotY": 180.000015,
+                "rotZ": 358.770477,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.3503571,
+                "posY": 1.19147038,
+                "posZ": 4.935617,
+                "rotX": 3.17072035e-09,
+                "rotY": 180.000015,
+                "rotZ": 0.0265968442,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 400,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "61126c"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.12485,
+                "posY": 1.23051322,
+                "posZ": 4.468631,
+                "rotX": -5.55766455e-05,
+                "rotY": 179.999832,
+                "rotZ": 358.761963,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 400,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "9f53b5"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.7139969,
+                "posY": 1.23719847,
+                "posZ": 5.111139,
+                "rotX": -1.41203444e-07,
+                "rotY": 180.000015,
+                "rotZ": 358.814667,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 615,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bddf13"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.1000023,
+                "posY": 1.16229212,
+                "posZ": 5.02,
+                "rotX": -2.89324955e-08,
+                "rotY": 180.000015,
+                "rotZ": 359.757324,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 615,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bddf13"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.49144,
+                "posY": 1.20532179,
+                "posZ": 5.320572,
+                "rotX": -1.46577563e-07,
+                "rotY": 180.000015,
+                "rotZ": 358.769775,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 615,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bddf13"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.354187,
+                "posY": 1.21295857,
+                "posZ": 5.37674856,
+                "rotX": -1.48181059e-07,
+                "rotY": 180.000015,
+                "rotZ": 358.759277,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 614,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "dba778"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.5874043,
+                "posY": 1.222685,
+                "posZ": 5.32735252,
+                "rotX": 6.66726555e-05,
+                "rotY": 180.001587,
+                "rotZ": 358.76532,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 613,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14850e"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.9420815,
+                "posY": 1.232342,
+                "posZ": 4.96616459,
+                "rotX": -1.48817508e-05,
+                "rotY": 179.9989,
+                "rotZ": 358.76532,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 611,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14850e"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.0765667,
+                "posY": 1.22243738,
+                "posZ": 5.10508347,
+                "rotX": -3.0750904e-08,
+                "rotY": 180.000015,
+                "rotZ": 359.742,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 612,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "e57064"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.07824,
+                "posY": 1.23209739,
+                "posZ": 5.2413,
+                "rotX": -3.076378e-08,
+                "rotY": 180.000015,
+                "rotZ": 359.742,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 610,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14850e"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.01771,
+                "posY": 1.26025558,
+                "posZ": 4.77268267,
+                "rotX": -1.10621386e-07,
+                "rotY": 180.000015,
+                "rotZ": 359.070251,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 609,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "1c8485"
+            }
+          ],
+          "GUID": "1f3e4b"
+        }
+      ],
+      "GUID": "b7dc2c"
+    },
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -41.1862869,
+        "posY": 1.16494524,
+        "posZ": -1.41377616,
+        "rotX": 1.79676718e-07,
+        "rotY": 89.98558,
+        "rotZ": 3.87844068e-07,
+        "scaleX": 0.625,
+        "scaleY": 0.146185726,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Wizard Character Box",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992168248,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+        "DiffuseURL": "http://i.imgur.com/NhwE0Vf.png",
+        "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": -26.9254112,
+            "posY": 1.261058,
+            "posZ": 9.833091,
+            "rotX": 359.990479,
+            "rotY": 180.021378,
+            "rotZ": 0.03864456,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "Wizard",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            403,
+            403,
+            403,
+            403,
+            403,
+            709,
+            708,
+            708,
+            707,
+            706,
+            704,
+            705,
+            703,
+            702,
+            701,
+            700
+          ],
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            },
+            "7": {
+              "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.0982857,
+                "posY": 1.03171349,
+                "posZ": 7.52999973,
+                "rotX": 1.17231416e-07,
+                "rotY": 180.000015,
+                "rotZ": -8.55669555e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "1204fe"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.5968819,
+                "posY": 1.21111381,
+                "posZ": 6.92636061,
+                "rotX": -5.67910448e-08,
+                "rotY": 180.000015,
+                "rotZ": 359.5236,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.0984421,
+                "posY": 1.31479073,
+                "posZ": 7.529899,
+                "rotX": 0.000932723,
+                "rotY": 179.99614,
+                "rotZ": 356.449066,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.0985966,
+                "posY": 1.30006933,
+                "posZ": 7.529909,
+                "rotX": 0.0008008621,
+                "rotY": 179.996521,
+                "rotZ": 356.502441,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.71629,
+                "posY": 1.22291052,
+                "posZ": 8.2077055,
+                "rotX": 7.505286e-05,
+                "rotY": 180.002579,
+                "rotZ": 358.7744,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.9457645,
+                "posY": 1.21489978,
+                "posZ": 7.142269,
+                "rotX": -5.68033727e-08,
+                "rotY": 180.000015,
+                "rotZ": 359.5236,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 709,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c69f95"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.09921,
+                "posY": 1.29970467,
+                "posZ": 7.52994967,
+                "rotX": 0.000418539072,
+                "rotY": 179.998047,
+                "rotZ": 356.6663,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 708,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c1309a"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.9361629,
+                "posY": 1.236244,
+                "posZ": 7.54044676,
+                "rotX": 2.468405e-05,
+                "rotY": 180.0004,
+                "rotZ": 358.7653,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 708,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c1309a"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.09833,
+                "posY": 1.26649272,
+                "posZ": 7.529894,
+                "rotX": 0.0008797705,
+                "rotY": 179.995865,
+                "rotZ": 356.498444,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 707,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "33a6b7"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.058588,
+                "posY": 1.20336127,
+                "posZ": 7.435838,
+                "rotX": -8.658819e-05,
+                "rotY": 179.999573,
+                "rotZ": 358.7656,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 706,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "869fb9"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.5754662,
+                "posY": 1.21302366,
+                "posZ": 7.75034,
+                "rotX": 4.25047729e-05,
+                "rotY": 180.001587,
+                "rotZ": 358.76532,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 704,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "869fb9"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.9207649,
+                "posY": 1.18562055,
+                "posZ": 7.713218,
+                "rotX": -1.99041317e-09,
+                "rotY": 180.000015,
+                "rotZ": 359.9833,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 705,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "e36469"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.90051,
+                "posY": 1.19527268,
+                "posZ": 7.8365283,
+                "rotX": -1.984357e-09,
+                "rotY": 180.000015,
+                "rotZ": 359.983368,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 703,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4ce876"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.1610641,
+                "posY": 1.238354,
+                "posZ": 7.55551672,
+                "rotX": -8.23119564e-08,
+                "rotY": 180.000015,
+                "rotZ": 359.30896,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 702,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "869fb9"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.3518143,
+                "posY": 1.24868655,
+                "posZ": 7.554661,
+                "rotX": -0.0003141512,
+                "rotY": 179.997162,
+                "rotZ": 1.15690374,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 701,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "26037f"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -24.9685726,
+                "posY": 1.26003885,
+                "posZ": 7.298577,
+                "rotX": -1.01195361e-07,
+                "rotY": 180.000015,
+                "rotZ": 359.1503,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 700,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "7": {
+                  "FaceURL": "http://i.imgur.com/KQZu1mZ.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "869fb9"
+            }
+          ],
+          "GUID": "87dcf0"
+        }
+      ],
+      "GUID": "e447c0"
+    },
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -41.16613,
+        "posY": 1.16494524,
+        "posZ": 1.50981021,
+        "rotX": 1.05634157e-07,
+        "rotY": 89.9856,
+        "rotZ": 8.9427914e-07,
+        "scaleX": 0.625,
+        "scaleY": 0.146185726,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Ranger Character Box",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992168248,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+        "DiffuseURL": "http://i.imgur.com/NhwE0Vf.png",
+        "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": -31.4802971,
+            "posY": 1.26109648,
+            "posZ": 10.9853649,
+            "rotX": 0.00550504355,
+            "rotY": 180.023865,
+            "rotZ": 0.0180431921,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "Ranger",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            403,
+            403,
+            403,
+            403,
+            403,
+            400,
+            608,
+            607,
+            607,
+            606,
+            604,
+            605,
+            603,
+            602,
+            601,
+            600
+          ],
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            },
+            "6": {
+              "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -32.31047,
+                "posY": 1.22796309,
+                "posZ": 14.8224487,
+                "rotX": -6.197733e-14,
+                "rotY": 180.000015,
+                "rotZ": 179.999329,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4c8f24"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -27.680088,
+                "posY": 1.17796385,
+                "posZ": 19.8756466,
+                "rotX": -2.63888666e-07,
+                "rotY": 180.000061,
+                "rotZ": -3.1147606e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -27.680088,
+                "posY": 1.1952337,
+                "posZ": 19.8756466,
+                "rotX": -2.63888666e-07,
+                "rotY": 180.000061,
+                "rotZ": -3.1147606e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -27.680088,
+                "posY": 1.1815604,
+                "posZ": 19.8756466,
+                "rotX": -2.63888666e-07,
+                "rotY": 180.000061,
+                "rotZ": -3.1147606e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -27.680088,
+                "posY": 1.17955387,
+                "posZ": 19.8756466,
+                "rotX": -2.63888666e-07,
+                "rotY": 180.000061,
+                "rotZ": -3.1147606e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 403,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c65cf6"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -28.3675861,
+                "posY": 1.18730378,
+                "posZ": 20.0079327,
+                "rotX": 9.608885e-07,
+                "rotY": 180.000076,
+                "rotZ": -1.12419389e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 400,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "4": {
+                  "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "373ed7"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -28.0600166,
+                "posY": 1.19229734,
+                "posZ": 20.6379566,
+                "rotX": -3.53244764e-06,
+                "rotY": 180.000015,
+                "rotZ": -5.1539547e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 608,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "b2f82d"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -27.9341145,
+                "posY": 1.198622,
+                "posZ": 20.0376549,
+                "rotX": -1.28846023e-06,
+                "rotY": 180.000031,
+                "rotZ": 2.40600184e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 607,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "9b3196"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -28.1038532,
+                "posY": 1.15608048,
+                "posZ": 19.5978661,
+                "rotX": -2.094699e-06,
+                "rotY": 180.000046,
+                "rotZ": -2.21529831e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 607,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "00ca55"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -28.09843,
+                "posY": 1.165743,
+                "posZ": 20.1321278,
+                "rotX": -6.86401336e-07,
+                "rotY": 180.000015,
+                "rotZ": 7.697231e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 606,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14850e"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -35.1608925,
+                "posY": 1.0317136,
+                "posZ": 10.0395689,
+                "rotX": 4.89984359e-07,
+                "rotY": 180.004608,
+                "rotZ": 2.32901613e-07,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 604,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14850e"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -35.44471,
+                "posY": 1.18305421,
+                "posZ": 10.2666521,
+                "rotX": -1.40636962e-06,
+                "rotY": 180,
+                "rotZ": 2.03843547e-06,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 605,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14ef90"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -40.0723038,
+                "posY": 1.19683349,
+                "posZ": 10.0039415,
+                "rotX": -6.531277e-07,
+                "rotY": 180.000015,
+                "rotZ": 180.0722,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 603,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "2ca7bd"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -40.5397263,
+                "posY": 1.2405256,
+                "posZ": 10.0452185,
+                "rotX": -3.63732966e-07,
+                "rotY": 180.000015,
+                "rotZ": 181.007538,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 602,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14850e"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -40.39696,
+                "posY": 1.21347451,
+                "posZ": -9.894307,
+                "rotX": 3.169031e-06,
+                "rotY": 180.000015,
+                "rotZ": 180.476425,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 601,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f92a38"
+            },
+            {
+              "Name": "Card",
+              "Transform": {
+                "posX": -40.16,
+                "posY": 1.03453648,
+                "posZ": -10.04,
+                "rotX": 4.64005225e-08,
+                "rotY": 180.000015,
+                "rotZ": 180,
+                "scaleX": 1.76113939,
+                "scaleY": 1,
+                "scaleZ": 1.76113939
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CardID": 600,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "6": {
+                  "FaceURL": "http://i.imgur.com/G18wHko.jpg",
+                  "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+                  "NumWidth": 6,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "14850e"
+            }
+          ],
+          "GUID": "850ab3"
+        }
+      ],
+      "GUID": "b611d7"
+    },
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -41.1496468,
+        "posY": 1.16494524,
+        "posZ": 4.844925,
+        "rotX": -2.92670439e-08,
+        "rotY": 89.98564,
+        "rotZ": 1.80007884e-08,
+        "scaleX": 0.625,
+        "scaleY": 0.146185726,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Fighter Character Box",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992168248,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+        "DiffuseURL": "http://i.imgur.com/NhwE0Vf.png",
+        "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -64.06446,
+            "posY": 1.76846123,
+            "posZ": 3.605097,
+            "rotX": -3.09221775e-07,
+            "rotY": 179.999176,
+            "rotZ": 9.381073e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6d2ea7"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -59.1132774,
+            "posY": 1.76846159,
+            "posZ": 6.936833,
+            "rotX": -1.62394365e-08,
+            "rotY": 179.999161,
+            "rotZ": -1.94931843e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4ca69e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -54.074955,
+            "posY": 1.77254963,
+            "posZ": 5.504527,
+            "rotX": -1.63674123e-08,
+            "rotY": 179.999161,
+            "rotZ": -2.15974453e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "eeb918"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -54.2851639,
+            "posY": 1.77254951,
+            "posZ": 4.902817,
+            "rotX": -2.935489e-09,
+            "rotY": 179.999161,
+            "rotZ": -8.843362e-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f01361"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -68.69885,
+            "posY": 1.76846111,
+            "posZ": -4.1285677,
+            "rotX": 4.301603e-09,
+            "rotY": 179.999161,
+            "rotZ": -1.04643135e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b3731d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -68.33967,
+            "posY": 1.76846111,
+            "posZ": -7.48688841,
+            "rotX": -7.654514e-09,
+            "rotY": 179.999161,
+            "rotZ": -1.2242019e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a17de"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -60.25049,
+            "posY": 1.76846111,
+            "posZ": -8.109839,
+            "rotX": 1.934088e-08,
+            "rotY": 179.999161,
+            "rotZ": -1.79160452e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 400,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "895ac9"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -57.0863533,
+            "posY": 1.76846123,
+            "posZ": -8.957123,
+            "rotX": 3.58198378e-08,
+            "rotY": 179.999161,
+            "rotZ": -1.71911523e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 518,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "98f1d2"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -71.14428,
+            "posY": 1.76846182,
+            "posZ": -16.0042953,
+            "rotX": -2.11257287e-08,
+            "rotY": 179.999161,
+            "rotZ": -5.06408924e-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 517,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1e41d8"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -73.62521,
+            "posY": 1.7684617,
+            "posZ": -22.1584435,
+            "rotX": 3.40522419e-08,
+            "rotY": 179.999161,
+            "rotZ": -8.31250162e-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 516,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fe8075"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -64.1340561,
+            "posY": 1.76846218,
+            "posZ": -18.3325653,
+            "rotX": -1.90723881e-08,
+            "rotY": 179.999161,
+            "rotZ": 3.53296559e-10,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 515,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "435dea"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -62.3653069,
+            "posY": 1.76846111,
+            "posZ": -19.9822826,
+            "rotX": -3.54539864e-09,
+            "rotY": 179.999161,
+            "rotZ": -5.94076219e-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 514,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fe8075"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -70.3379059,
+            "posY": 1.76846111,
+            "posZ": -17.6799965,
+            "rotX": -3.23415961e-08,
+            "rotY": 179.999161,
+            "rotZ": -7.348665e-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 513,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b1682f"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -78.24157,
+            "posY": 1.76846111,
+            "posZ": -39.8574562,
+            "rotX": 3.60876378e-08,
+            "rotY": 179.999161,
+            "rotZ": -3.958919e-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 512,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fe8075"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -74.8144455,
+            "posY": 1.76846123,
+            "posZ": -73.1263351,
+            "rotX": 6.615092e-08,
+            "rotY": 1.05867848e-09,
+            "rotZ": -2.34844279e-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 511,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "69910e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 50.4813957,
+            "posY": 1.76846111,
+            "posZ": 53.95543,
+            "rotX": -4.0674945e-07,
+            "rotY": 179.999512,
+            "rotZ": -1.79479775e-06,
+            "scaleX": 1.81955469,
+            "scaleY": 1,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 510,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "http://i.imgur.com/BE4kGWn.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fe8075"
+        }
+      ],
+      "GUID": "7e4bcb"
     }
   ],
   "SnapPoints": [
