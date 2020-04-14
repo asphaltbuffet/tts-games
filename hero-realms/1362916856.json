@@ -3,7 +3,7 @@
   "GameMode": "Hero Realms Script",
   "Gravity": 0.5,
   "PlayArea": 0.5,
-  "Date": "4/13/2020 3:44:59 PM",
+  "Date": "4/13/2020 8:38:44 PM",
   "Table": "Table_Custom",
   "TableURL": "http://i.imgur.com/8gw4ygu.jpg",
   "Sky": "Sky_Museum",
@@ -5254,6 +5254,11 @@
       "Hands": false,
       "SidewaysCard": false,
       "DeckIDs": [
+        325,
+        416,
+        420,
+        418,
+        425,
         418,
         327,
         305,
@@ -5331,16 +5336,16 @@
         412
       ],
       "CustomDeck": {
-        "4": {
-          "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+        "3": {
+          "FaceURL": "http://i.imgur.com/MRuGrbN.jpg",
           "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
           "BackIsHidden": true,
           "UniqueBack": false
         },
-        "3": {
-          "FaceURL": "http://i.imgur.com/MRuGrbN.jpg",
+        "4": {
+          "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
           "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -5352,6 +5357,246 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 10.0083494,
+            "posY": 1.0317136,
+            "posZ": 0.0249504577,
+            "rotX": 1.08386011E-08,
+            "rotY": 180.0001,
+            "rotZ": -5.00933126E-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 325,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "http://i.imgur.com/MRuGrbN.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f8729e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.97089386,
+            "posY": 1.0317136,
+            "posZ": 0.0382979065,
+            "rotX": -5.13453067E-08,
+            "rotY": 180.0,
+            "rotZ": -1.80890485E-08,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 416,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "755045"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.028709,
+            "posY": 1.0317136,
+            "posZ": 0.00561146624,
+            "rotX": 6.188074E-08,
+            "rotY": 180.000519,
+            "rotZ": -1.94539737E-07,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 420,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b5d531"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -8.045206,
+            "posY": 1.0317136,
+            "posZ": 0.04976201,
+            "rotX": 2.01116634E-08,
+            "rotY": 180.000061,
+            "rotZ": -2.886354E-09,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 418,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "28b572"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 10.0083408,
+            "posY": 1.17174888,
+            "posZ": 0.0249504466,
+            "rotX": 0.0007789499,
+            "rotY": 180.000076,
+            "rotZ": -0.0048926156,
+            "scaleX": 1.81955469,
+            "scaleY": 1.0,
+            "scaleZ": 1.81955469
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 425,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
+              "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
+              "NumWidth": 6,
+              "NumHeight": 5,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "32739d"
+        },
         {
           "Name": "Card",
           "Transform": {
@@ -8881,198 +9126,6 @@
       "GUID": "12796c"
     },
     {
-      "Name": "Card",
-      "Transform": {
-        "posX": -14.0170851,
-        "posY": 1.0317136,
-        "posZ": 0.07099829,
-        "rotX": 2.4614037E-08,
-        "rotY": 180.000015,
-        "rotZ": -1.07610472E-08,
-        "scaleX": 1.81955469,
-        "scaleY": 1.0,
-        "scaleZ": 1.81955469
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": true,
-      "CardID": 425,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "4": {
-          "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-          "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-          "NumWidth": 6,
-          "NumHeight": 5,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "32739d"
-    },
-    {
-      "Name": "Card",
-      "Transform": {
-        "posX": -8.045206,
-        "posY": 1.0317136,
-        "posZ": 0.04976201,
-        "rotX": 4.01786764E-08,
-        "rotY": 180.000061,
-        "rotZ": 3.05945E-08,
-        "scaleX": 1.81955469,
-        "scaleY": 1.0,
-        "scaleZ": 1.81955469
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": true,
-      "CardID": 418,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "4": {
-          "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-          "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-          "NumWidth": 6,
-          "NumHeight": 5,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "28b572"
-    },
-    {
-      "Name": "Card",
-      "Transform": {
-        "posX": -2.028709,
-        "posY": 1.0317136,
-        "posZ": 0.00561146624,
-        "rotX": 7.363379E-08,
-        "rotY": 180.000519,
-        "rotZ": -1.5953114E-07,
-        "scaleX": 1.81955469,
-        "scaleY": 1.0,
-        "scaleZ": 1.81955469
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": true,
-      "CardID": 420,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "4": {
-          "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-          "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-          "NumWidth": 6,
-          "NumHeight": 5,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "b5d531"
-    },
-    {
-      "Name": "Card",
-      "Transform": {
-        "posX": 10.0083494,
-        "posY": 1.0317136,
-        "posZ": 0.0249504577,
-        "rotX": 2.81030954E-09,
-        "rotY": 180.0001,
-        "rotZ": -3.330355E-08,
-        "scaleX": 1.81955469,
-        "scaleY": 1.0,
-        "scaleZ": 1.81955469
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": true,
-      "CardID": 325,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "3": {
-          "FaceURL": "http://i.imgur.com/MRuGrbN.jpg",
-          "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-          "NumWidth": 6,
-          "NumHeight": 5,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "f8729e"
-    },
-    {
       "Name": "RandomizeTrigger",
       "Transform": {
         "posX": -7.108986,
@@ -9935,206 +9988,6 @@
       "GUID": "0fabb2"
     },
     {
-      "Name": "Die_20",
-      "Transform": {
-        "posX": -35.2697029,
-        "posY": 1.37810588,
-        "posZ": -0.9333985,
-        "rotX": 349.187775,
-        "rotY": 218.16507,
-        "rotZ": 233.999863,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.149030268,
-        "g": 0.301973075,
-        "b": 0.4431491
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "AltSound": true,
-      "MaterialIndex": 1,
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "94c42b",
-      "RotationValues": [
-        {
-          "Value": 1,
-          "Rotation": {
-            "x": -11.0,
-            "y": 60.0,
-            "z": 17.0
-          }
-        },
-        {
-          "Value": 2,
-          "Rotation": {
-            "x": 52.0,
-            "y": -60.0,
-            "z": -17.0
-          }
-        },
-        {
-          "Value": 3,
-          "Rotation": {
-            "x": -11.0,
-            "y": -180.0,
-            "z": 90.0
-          }
-        },
-        {
-          "Value": 4,
-          "Rotation": {
-            "x": -11.0,
-            "y": -180.0,
-            "z": 162.0
-          }
-        },
-        {
-          "Value": 5,
-          "Rotation": {
-            "x": -11.0,
-            "y": -60.0,
-            "z": 234.0
-          }
-        },
-        {
-          "Value": 6,
-          "Rotation": {
-            "x": -11.0,
-            "y": -180.0,
-            "z": 306.0
-          }
-        },
-        {
-          "Value": 7,
-          "Rotation": {
-            "x": 52.0,
-            "y": -60.0,
-            "z": 55.0
-          }
-        },
-        {
-          "Value": 8,
-          "Rotation": {
-            "x": 52.0,
-            "y": -60.0,
-            "z": 198.0
-          }
-        },
-        {
-          "Value": 9,
-          "Rotation": {
-            "x": 52.0,
-            "y": -60.0,
-            "z": 127.0
-          }
-        },
-        {
-          "Value": 10,
-          "Rotation": {
-            "x": 52.0,
-            "y": -180.0,
-            "z": -90.0
-          }
-        },
-        {
-          "Value": 11,
-          "Rotation": {
-            "x": 308.0,
-            "y": 0.0,
-            "z": 90.0
-          }
-        },
-        {
-          "Value": 12,
-          "Rotation": {
-            "x": 306.0,
-            "y": -240.0,
-            "z": -52.0
-          }
-        },
-        {
-          "Value": 13,
-          "Rotation": {
-            "x": -52.0,
-            "y": -240.0,
-            "z": 18.0
-          }
-        },
-        {
-          "Value": 14,
-          "Rotation": {
-            "x": 307.0,
-            "y": 120.0,
-            "z": 233.0
-          }
-        },
-        {
-          "Value": 15,
-          "Rotation": {
-            "x": 11.0,
-            "y": 120.0,
-            "z": -234.0
-          }
-        },
-        {
-          "Value": 16,
-          "Rotation": {
-            "x": 11.0,
-            "y": 0.0,
-            "z": 54.0
-          }
-        },
-        {
-          "Value": 17,
-          "Rotation": {
-            "x": 11.0,
-            "y": -120.0,
-            "z": -17.0
-          }
-        },
-        {
-          "Value": 18,
-          "Rotation": {
-            "x": 11.0,
-            "y": 0.0,
-            "z": -90.0
-          }
-        },
-        {
-          "Value": 19,
-          "Rotation": {
-            "x": -52.0,
-            "y": -240.0,
-            "z": -198.0
-          }
-        },
-        {
-          "Value": 20,
-          "Rotation": {
-            "x": 11.0,
-            "y": 0.0,
-            "z": -162.0
-          }
-        }
-      ]
-    },
-    {
       "Name": "Counter",
       "Transform": {
         "posX": -21.6117458,
@@ -10784,54 +10637,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "GUID": "73430b"
-    },
-    {
-      "Name": "Card",
-      "Transform": {
-        "posX": 3.97089386,
-        "posY": 1.0317136,
-        "posZ": 0.0382979065,
-        "rotX": -3.775997E-08,
-        "rotY": 180.0,
-        "rotZ": -1.02306439E-08,
-        "scaleX": 1.81955469,
-        "scaleY": 1.0,
-        "scaleZ": 1.81955469
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": true,
-      "CardID": 416,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "4": {
-          "FaceURL": "http://i.imgur.com/5xeo9w4.jpg",
-          "BackURL": "http://i.imgur.com/6dAdPfM.jpg",
-          "NumWidth": 6,
-          "NumHeight": 5,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "755045"
     },
     {
       "Name": "ScriptingTrigger",
