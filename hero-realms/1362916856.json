@@ -68,31 +68,143 @@
     "Hiding": 0,
     "HandTransforms": [
       {
-        "Color": "Red",
+        "Color": "Blue",
         "Transform": {
-          "posX": -1.424674,
-          "posY": 4.187097,
-          "posZ": -31.9844341,
+          "posX": 23.6700039,
+          "posY": 3.34820342,
+          "posZ": 34.4527626,
           "rotX": 0,
-          "rotY": 9.19801751e-05,
+          "rotY": 179.8,
           "rotZ": 0,
-          "scaleX": 48.0304451,
-          "scaleY": 7,
-          "scaleZ": 8.91231251
+          "scaleX": 15.3269758,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.350195
         }
       },
       {
-        "Color": "Blue",
+        "Color": "Brown",
         "Transform": {
-          "posX": 4.2108984,
-          "posY": 4.187097,
-          "posZ": 31.6801338,
+          "posX": 0,
+          "posY": 3.34820342,
+          "posZ": -34.42515,
           "rotX": 0,
-          "rotY": 9.19801751e-05,
+          "rotY": 0,
           "rotZ": 0,
-          "scaleX": 46.5824165,
-          "scaleY": 7,
-          "scaleZ": 8.823596
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.34820342,
+          "posZ": 34.43159,
+          "rotX": 0,
+          "rotY": 180,
+          "rotZ": 0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.34820342,
+          "posZ": -11.7324,
+          "rotX": 0,
+          "rotY": 90,
+          "rotZ": 0,
+          "scaleX": 15.1941023,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40572548
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 3.34820342,
+          "posZ": -11.7324,
+          "rotX": 0,
+          "rotY": 270,
+          "rotZ": 0,
+          "scaleX": 15.194087,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40572548
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 3.34820342,
+          "posZ": 11.7324,
+          "rotX": 0,
+          "rotY": 270,
+          "rotZ": 0,
+          "scaleX": 15.194088,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40572548
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.34820342,
+          "posZ": -34.42515,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0,
+          "posY": 3.34820342,
+          "posZ": 34.4527626,
+          "rotX": 0,
+          "rotY": 179.800049,
+          "rotZ": 0,
+          "scaleX": 15.3269777,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.350195
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.34820342,
+          "posZ": -34.2558136,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.34820342,
+          "posZ": 11.7324,
+          "rotX": 0,
+          "rotY": 90,
+          "rotZ": 0,
+          "scaleX": 15.1941,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40572548
         }
       }
     ]
@@ -11185,6 +11297,1025 @@
         }
       ],
       "GUID": "7e4bcb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.000187599682,
+        "posY": -42.2,
+        "posZ": 0.00018766518,
+        "rotX": -0.00024980685,
+        "rotY": 180,
+        "rotZ": -0.0007672871,
+        "scaleX": 4,
+        "scaleY": 4,
+        "scaleZ": 4
+      },
+      "Nickname": "Board",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.1202044,
+        "g": 0.1202044,
+        "b": 0.1202044
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/868496425808310268/383523E82AF9E082DDB776F54C025C71A30E098F/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"CUSTOMIZE BOARD\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 750,\r\n    height = 75,\r\n    color = {1, 1, 1, 1.0},\r\n    position = {-15.5, 10, -5},\r\n    rotation = {180, 270, 80},\r\n    font_size = 75\r\n})\r\nend\r\n\r\nfunction onButtonClick()\r\n    if self.interactable == false then\r\n        self.interactable = true;\r\n        self.setColorTint({1, 1, 1})\r\n        self.editButton({ label = \"LOCK BOARD\" })\r\n\r\n    else\r\n        self.interactable = false;\r\n        self.editButton({ label = \"CUSTOMIZE BOARD\"})\r\n\r\n    end\r\nend\r\n",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.75,
+        "Drag": 1000000000000,
+        "AngularDrag": 10000000000000,
+        "UseGravity": false
+      },
+      "GUID": "437cd7"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 2.32830644e-09,
+        "posY": -41.99,
+        "posZ": 1.16415322e-09,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "The Kraken Table",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808380193/6D743C154CD681FA1AC3535C6F55A62FBDB2C620/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\nend\r",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 118,
+        "Drag": 115,
+        "AngularDrag": 100000000000000,
+        "UseGravity": false
+      },
+      "GUID": "0b2ed0"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.00236129761,
+        "posY": -41.99,
+        "posZ": 0.001013766,
+        "rotX": 4.589737e-07,
+        "rotY": -0.000937106553,
+        "rotZ": 0.00338295964,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Extend",
+      "Description": "Click to add an extension to the table.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808427672/964B4FF361543B63A775D036814154F980F134AF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 5000,\r\n    height = 1000,\r\n    color = {0, 0, 0, 0.0},\r\n    position = {62.4, 40.75, 0},\r\n    rotation = {0, 90, 90},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 100000000000000,
+        "Drag": 1e+17,
+        "AngularDrag": 100000000000000,
+        "UseGravity": false
+      },
+      "GUID": "dcbdb2",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 0.00236129761,
+            "posY": -41.99,
+            "posZ": 0.001013766,
+            "rotX": 4.589737e-07,
+            "rotY": -0.000937106553,
+            "rotZ": 0.00338295964,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Table Extension",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496546869694123/1567EBEAA6AA35068A6FFD335F3A773EDD17B48D/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 5000,\r\n    height = 1000,\r\n    color = {0, 0, 0, 0.0},\r\n    position = {62.4, 40.75, 0},\r\n    rotation = {0, 90, 90},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1000000000,
+            "Drag": 1000000000000000,
+            "AngularDrag": 10000000000000,
+            "UseGravity": false
+          },
+          "GUID": "04c44a"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0,
+        "posY": -41.99,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Extend",
+      "Description": "Click to add an extension to the table.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808427672/964B4FF361543B63A775D036814154F980F134AF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 5000,\r\n    height = 1000,\r\n    color = {0, 0, 0, 0.0},\r\n    position = {62.4, 40.75, 0},\r\n    rotation = {0, 90, 90},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 100000000000000,
+        "Drag": 1e+17,
+        "AngularDrag": 100000000000000,
+        "UseGravity": false
+      },
+      "GUID": "ac7918",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 0,
+            "posY": -41.99,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Table Extension",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496546869694123/1567EBEAA6AA35068A6FFD335F3A773EDD17B48D/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 5000,\r\n    height = 1000,\r\n    color = {0, 0, 0, 0.0},\r\n    position = {62.4, 40.75, 0},\r\n    rotation = {0, 90, 90},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1000000000,
+            "Drag": 1000000000000000,
+            "AngularDrag": 10000000000000,
+            "UseGravity": false
+          },
+          "GUID": "6e517a"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -36,
+        "posY": -41.99,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Board Cabinet",
+      "Description": "Click to open.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.249995887,
+        "g": 0.249995887,
+        "b": 0.249995887
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808274507/801DDE162A6431250F18BADB2306A54FE4F9FAFF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 1000,\r\n    height = 750,\r\n    color = {1, 0, 0, 0.0},\r\n    position = {0, 40.7, 32.8},\r\n    rotation = {-90, 0, 0},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "e2b080",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -36,
+            "posY": -41.99,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Board Cabinet (Drawn)",
+          "Description": "Click on the handle to close.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.249999017,
+            "g": 0.249999017,
+            "b": 0.249999017
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808279018/1BE1733E66A6D19385888B136F4E6DEDFC257969/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "local ConcealedStorageHeight = 3.0\r\nlocal ConceiledStorageOffset = 10000.0\r\nlocal StorageState = 1\r\n\r\nlocal BB = {\r\n\tMin = {\r\n\t\tx = -16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -50.0\r\n\t},\r\n\tMax = {\r\n\t\tx = 16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -32.0\r\n\t}\r\n}\r\n\r\nfunction onLoad()\r\n    self.interactable = false;\r\n\t\r\n    self.createButton({\r\n\t\tlabel = \"\",\r\n\t\tclick_function = \"onButtonClick\",\r\n\t\tfunction_owner = self,\r\n\t\twidth = 1000,\r\n\t\theight = 750,\r\n\t\tcolor = {1, 0, 0, 0.0},\r\n\t\tposition = {0, 40.7, 50.5},\r\n\t\trotation = {-90, 0, 0},\r\n\t\tfont_size = 200\r\n    })\r\n\t\r\n\tif self.getStateId() ~= StorageState then\r\n    Timer.create({\r\n        identifier = (\"onAfterLoad\" .. self.guid),\r\n        function_name = \"onAfterLoad\",\r\n        delay = 0.2\r\n    })\r\n\tend\r\nend\r\n\r\nfunction onAfterLoad()\r\n\tlocal pos = self.getPosition()\r\n\tlocal bounds = self.getBoundsNormalized()\r\n\tlocal rot = self.getRotation()\r\n\tlocal direction = 1.0\r\n\t\r\n\tif rot.y == 0 then\r\n\t\tdirection = -1.0\r\n\tend\r\n\t\r\n\tBB.Min.x = BB.Min.x + pos.x\r\n\tBB.Min.y = BB.Min.y + pos.y - 1.5\r\n\tBB.Min.z = (BB.Min.z * direction) + pos.z\r\n\t\r\n\tBB.Max.x = \tBB.Max.x + pos.x\r\n\tBB.Max.y = \tBB.Max.y + pos.y + ConcealedStorageHeight + 0.5\r\n\tBB.Max.z = (BB.Max.z * direction) + pos.z\r\n\t\r\n\tHideObjectsAbove( false )\r\nend\r\n\r\nfunction onButtonClick()\r\n\tlocal currentState = self.getStateId()\r\n\tlocal nextState = 1 + (currentState % 2)\r\n\t\r\n\tif currentState ~= StorageState then\r\n\t\tHideObjectsAbove( true )\r\n\tend\r\n\t\r\n\tself.setState( nextState )\r\nend\r\n\r\nfunction HideObjectsAbove( toggle )\r\n    local objectsAbove = {}\r\n\tlocal BBMin = { x = BB.Min.x, y = BB.Min.y, z = BB.Min.z }\r\n\tlocal BBMax = { x = BB.Max.x, y = BB.Max.y, z = BB.Max.z }\r\n\t\r\n\tif not toggle then\r\n\t\tBBMin.y = BBMin.y - ConceiledStorageOffset\r\n\t\tBBMax.y = BBMax.y - ConceiledStorageOffset\r\n\tend\r\n    \r\n    for k,v in pairs( getAllObjects() ) do\r\n        if v != self then\r\n            if PointToAABBIntersect( BBMin, BBMax, v.getPosition() ) then\r\n                if toggle then\r\n                    Store( v )\r\n                else\r\n                    Dispense( v )\r\n                end\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n-- Assumes ||min|| < ||max||\r\nfunction PointToAABBIntersect( min, max, point )\r\n    if IsInRange( point.x, min.x, max.x ) and\r\n       IsInRange( point.y, min.y, max.y ) and\r\n       IsInRange( point.z, min.z, max.z ) then\r\n\t   return true\r\n    end\r\n    \r\n    return false\r\nend\r\n\r\nfunction IsInRange( value, a, b )\r\n\tlocal min = 0\r\n\tlocal max = 0\r\n\t\r\n\tif a > b then\r\n\t\tmax = a\r\n\t\tmin = b\r\n\telse\r\n\t\tmax = b\r\n\t\tmin = a\r\n\tend\r\n\t\r\n\tif value > min and value < max then\r\n\t\treturn true\r\n\tend\r\n\t\r\n\treturn false\r\nend\r\n\r\nfunction Store( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal isLocked = obj.getLock()\r\n\t\r\n\tobj.setVar( \"LockStatus\", isLocked )\r\n\t\r\n    obj.interactable = false\r\n    obj.setLock( true )\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y - ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\nend\r\n\r\nfunction Dispense( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal originalLockStatus = obj.getVar( \"LockStatus\" )\r\n\t\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y + ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\n\t\r\n    obj.interactable = true\r\n\t\r\n\tif originalLockStatus ~= nil and originalLockStatus == true then\r\n\t\tobj.setLock( true )\r\n\telse\r\n\t\tobj.setLock( false )\r\n\tend\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1,
+            "Drag": 0.1,
+            "AngularDrag": 0.1,
+            "UseGravity": false
+          },
+          "GUID": "3c4e81"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0,
+        "posY": -41.99,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Board Cabinet",
+      "Description": "Click to open.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.249995112,
+        "g": 0.249995112,
+        "b": 0.249995112
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808274507/801DDE162A6431250F18BADB2306A54FE4F9FAFF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 1000,\r\n    height = 750,\r\n    color = {1, 0, 0, 0.0},\r\n    position = {0, 40.7, 32.8},\r\n    rotation = {-90, 0, 0},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "b1ab11",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 0,
+            "posY": -41.99,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Board Cabinet (Drawn)",
+          "Description": "Click on the handle to close.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.249998331,
+            "g": 0.249998331,
+            "b": 0.249998331
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808279018/1BE1733E66A6D19385888B136F4E6DEDFC257969/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "local ConcealedStorageHeight = 3.0\r\nlocal ConceiledStorageOffset = 10000.0\r\nlocal StorageState = 1\r\n\r\nlocal BB = {\r\n\tMin = {\r\n\t\tx = -16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -50.0\r\n\t},\r\n\tMax = {\r\n\t\tx = 16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -32.0\r\n\t}\r\n}\r\n\r\nfunction onLoad()\r\n    self.interactable = false;\r\n\t\r\n    self.createButton({\r\n\t\tlabel = \"\",\r\n\t\tclick_function = \"onButtonClick\",\r\n\t\tfunction_owner = self,\r\n\t\twidth = 1000,\r\n\t\theight = 750,\r\n\t\tcolor = {1, 0, 0, 0.0},\r\n\t\tposition = {0, 40.7, 50.5},\r\n\t\trotation = {-90, 0, 0},\r\n\t\tfont_size = 200\r\n    })\r\n\t\r\n\tif self.getStateId() ~= StorageState then\r\n    Timer.create({\r\n        identifier = (\"onAfterLoad\" .. self.guid),\r\n        function_name = \"onAfterLoad\",\r\n        delay = 0.2\r\n    })\r\n\tend\r\nend\r\n\r\nfunction onAfterLoad()\r\n\tlocal pos = self.getPosition()\r\n\tlocal bounds = self.getBoundsNormalized()\r\n\tlocal rot = self.getRotation()\r\n\tlocal direction = 1.0\r\n\t\r\n\tif rot.y == 0 then\r\n\t\tdirection = -1.0\r\n\tend\r\n\t\r\n\tBB.Min.x = BB.Min.x + pos.x\r\n\tBB.Min.y = BB.Min.y + pos.y - 1.5\r\n\tBB.Min.z = (BB.Min.z * direction) + pos.z\r\n\t\r\n\tBB.Max.x = \tBB.Max.x + pos.x\r\n\tBB.Max.y = \tBB.Max.y + pos.y + ConcealedStorageHeight + 0.5\r\n\tBB.Max.z = (BB.Max.z * direction) + pos.z\r\n\t\r\n\tHideObjectsAbove( false )\r\nend\r\n\r\nfunction onButtonClick()\r\n\tlocal currentState = self.getStateId()\r\n\tlocal nextState = 1 + (currentState % 2)\r\n\t\r\n\tif currentState ~= StorageState then\r\n\t\tHideObjectsAbove( true )\r\n\tend\r\n\t\r\n\tself.setState( nextState )\r\nend\r\n\r\nfunction HideObjectsAbove( toggle )\r\n    local objectsAbove = {}\r\n\tlocal BBMin = { x = BB.Min.x, y = BB.Min.y, z = BB.Min.z }\r\n\tlocal BBMax = { x = BB.Max.x, y = BB.Max.y, z = BB.Max.z }\r\n\t\r\n\tif not toggle then\r\n\t\tBBMin.y = BBMin.y - ConceiledStorageOffset\r\n\t\tBBMax.y = BBMax.y - ConceiledStorageOffset\r\n\tend\r\n    \r\n    for k,v in pairs( getAllObjects() ) do\r\n        if v != self then\r\n            if PointToAABBIntersect( BBMin, BBMax, v.getPosition() ) then\r\n                if toggle then\r\n                    Store( v )\r\n                else\r\n                    Dispense( v )\r\n                end\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n-- Assumes ||min|| < ||max||\r\nfunction PointToAABBIntersect( min, max, point )\r\n    if IsInRange( point.x, min.x, max.x ) and\r\n       IsInRange( point.y, min.y, max.y ) and\r\n       IsInRange( point.z, min.z, max.z ) then\r\n\t   return true\r\n    end\r\n    \r\n    return false\r\nend\r\n\r\nfunction IsInRange( value, a, b )\r\n\tlocal min = 0\r\n\tlocal max = 0\r\n\t\r\n\tif a > b then\r\n\t\tmax = a\r\n\t\tmin = b\r\n\telse\r\n\t\tmax = b\r\n\t\tmin = a\r\n\tend\r\n\t\r\n\tif value > min and value < max then\r\n\t\treturn true\r\n\tend\r\n\t\r\n\treturn false\r\nend\r\n\r\nfunction Store( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal isLocked = obj.getLock()\r\n\t\r\n\tobj.setVar( \"LockStatus\", isLocked )\r\n\t\r\n    obj.interactable = false\r\n    obj.setLock( true )\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y - ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\nend\r\n\r\nfunction Dispense( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal originalLockStatus = obj.getVar( \"LockStatus\" )\r\n\t\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y + ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\n\t\r\n    obj.interactable = true\r\n\t\r\n\tif originalLockStatus ~= nil and originalLockStatus == true then\r\n\t\tobj.setLock( true )\r\n\telse\r\n\t\tobj.setLock( false )\r\n\tend\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1,
+            "Drag": 0.1,
+            "AngularDrag": 0.1,
+            "UseGravity": false
+          },
+          "GUID": "665355"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 36,
+        "posY": -41.99,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Board Cabinet",
+      "Description": "Click to open.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.249995679,
+        "g": 0.249995679,
+        "b": 0.249995679
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808274507/801DDE162A6431250F18BADB2306A54FE4F9FAFF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 1000,\r\n    height = 750,\r\n    color = {1, 0, 0, 0.0},\r\n    position = {0, 40.7, 32.8},\r\n    rotation = {-90, 0, 0},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "390971",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 36,
+            "posY": -41.99,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Board Cabinet (Drawn)",
+          "Description": "Click on the handle to close.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.2499989,
+            "g": 0.2499989,
+            "b": 0.2499989
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808279018/1BE1733E66A6D19385888B136F4E6DEDFC257969/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "local ConcealedStorageHeight = 3.0\r\nlocal ConceiledStorageOffset = 10000.0\r\nlocal StorageState = 1\r\n\r\nlocal BB = {\r\n\tMin = {\r\n\t\tx = -16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -50.0\r\n\t},\r\n\tMax = {\r\n\t\tx = 16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -32.0\r\n\t}\r\n}\r\n\r\nfunction onLoad()\r\n    self.interactable = false;\r\n\t\r\n    self.createButton({\r\n\t\tlabel = \"\",\r\n\t\tclick_function = \"onButtonClick\",\r\n\t\tfunction_owner = self,\r\n\t\twidth = 1000,\r\n\t\theight = 750,\r\n\t\tcolor = {1, 0, 0, 0.0},\r\n\t\tposition = {0, 40.7, 50.5},\r\n\t\trotation = {-90, 0, 0},\r\n\t\tfont_size = 200\r\n    })\r\n\t\r\n\tif self.getStateId() ~= StorageState then\r\n    Timer.create({\r\n        identifier = (\"onAfterLoad\" .. self.guid),\r\n        function_name = \"onAfterLoad\",\r\n        delay = 0.2\r\n    })\r\n\tend\r\nend\r\n\r\nfunction onAfterLoad()\r\n\tlocal pos = self.getPosition()\r\n\tlocal bounds = self.getBoundsNormalized()\r\n\tlocal rot = self.getRotation()\r\n\tlocal direction = 1.0\r\n\t\r\n\tif rot.y == 0 then\r\n\t\tdirection = -1.0\r\n\tend\r\n\t\r\n\tBB.Min.x = BB.Min.x + pos.x\r\n\tBB.Min.y = BB.Min.y + pos.y - 1.5\r\n\tBB.Min.z = (BB.Min.z * direction) + pos.z\r\n\t\r\n\tBB.Max.x = \tBB.Max.x + pos.x\r\n\tBB.Max.y = \tBB.Max.y + pos.y + ConcealedStorageHeight + 0.5\r\n\tBB.Max.z = (BB.Max.z * direction) + pos.z\r\n\t\r\n\tHideObjectsAbove( false )\r\nend\r\n\r\nfunction onButtonClick()\r\n\tlocal currentState = self.getStateId()\r\n\tlocal nextState = 1 + (currentState % 2)\r\n\t\r\n\tif currentState ~= StorageState then\r\n\t\tHideObjectsAbove( true )\r\n\tend\r\n\t\r\n\tself.setState( nextState )\r\nend\r\n\r\nfunction HideObjectsAbove( toggle )\r\n    local objectsAbove = {}\r\n\tlocal BBMin = { x = BB.Min.x, y = BB.Min.y, z = BB.Min.z }\r\n\tlocal BBMax = { x = BB.Max.x, y = BB.Max.y, z = BB.Max.z }\r\n\t\r\n\tif not toggle then\r\n\t\tBBMin.y = BBMin.y - ConceiledStorageOffset\r\n\t\tBBMax.y = BBMax.y - ConceiledStorageOffset\r\n\tend\r\n    \r\n    for k,v in pairs( getAllObjects() ) do\r\n        if v != self then\r\n            if PointToAABBIntersect( BBMin, BBMax, v.getPosition() ) then\r\n                if toggle then\r\n                    Store( v )\r\n                else\r\n                    Dispense( v )\r\n                end\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n-- Assumes ||min|| < ||max||\r\nfunction PointToAABBIntersect( min, max, point )\r\n    if IsInRange( point.x, min.x, max.x ) and\r\n       IsInRange( point.y, min.y, max.y ) and\r\n       IsInRange( point.z, min.z, max.z ) then\r\n\t   return true\r\n    end\r\n    \r\n    return false\r\nend\r\n\r\nfunction IsInRange( value, a, b )\r\n\tlocal min = 0\r\n\tlocal max = 0\r\n\t\r\n\tif a > b then\r\n\t\tmax = a\r\n\t\tmin = b\r\n\telse\r\n\t\tmax = b\r\n\t\tmin = a\r\n\tend\r\n\t\r\n\tif value > min and value < max then\r\n\t\treturn true\r\n\tend\r\n\t\r\n\treturn false\r\nend\r\n\r\nfunction Store( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal isLocked = obj.getLock()\r\n\t\r\n\tobj.setVar( \"LockStatus\", isLocked )\r\n\t\r\n    obj.interactable = false\r\n    obj.setLock( true )\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y - ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\nend\r\n\r\nfunction Dispense( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal originalLockStatus = obj.getVar( \"LockStatus\" )\r\n\t\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y + ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\n\t\r\n    obj.interactable = true\r\n\t\r\n\tif originalLockStatus ~= nil and originalLockStatus == true then\r\n\t\tobj.setLock( true )\r\n\telse\r\n\t\tobj.setLock( false )\r\n\tend\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1,
+            "Drag": 0.1,
+            "AngularDrag": 0.1,
+            "UseGravity": false
+          },
+          "GUID": "0c8d35"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -36,
+        "posY": -41.99,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Board Cabinet",
+      "Description": "Click to open.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.249996,
+        "g": 0.249996,
+        "b": 0.249996
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808274507/801DDE162A6431250F18BADB2306A54FE4F9FAFF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 1000,\r\n    height = 750,\r\n    color = {1, 0, 0, 0.0},\r\n    position = {0, 40.7, 32.8},\r\n    rotation = {-90, 0, 0},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "2fa11f",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -36,
+            "posY": -41.99,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Board Cabinet (Drawn)",
+          "Description": "Click on the handle to close.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.249999136,
+            "g": 0.249999136,
+            "b": 0.249999136
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808279018/1BE1733E66A6D19385888B136F4E6DEDFC257969/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "local ConcealedStorageHeight = 3.0\r\nlocal ConceiledStorageOffset = 10000.0\r\nlocal StorageState = 1\r\n\r\nlocal BB = {\r\n\tMin = {\r\n\t\tx = -16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -50.0\r\n\t},\r\n\tMax = {\r\n\t\tx = 16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -32.0\r\n\t}\r\n}\r\n\r\nfunction onLoad()\r\n    self.interactable = false;\r\n\t\r\n    self.createButton({\r\n\t\tlabel = \"\",\r\n\t\tclick_function = \"onButtonClick\",\r\n\t\tfunction_owner = self,\r\n\t\twidth = 1000,\r\n\t\theight = 750,\r\n\t\tcolor = {1, 0, 0, 0.0},\r\n\t\tposition = {0, 40.7, 50.5},\r\n\t\trotation = {-90, 0, 0},\r\n\t\tfont_size = 200\r\n    })\r\n\t\r\n\tif self.getStateId() ~= StorageState then\r\n    Timer.create({\r\n        identifier = (\"onAfterLoad\" .. self.guid),\r\n        function_name = \"onAfterLoad\",\r\n        delay = 0.2\r\n    })\r\n\tend\r\nend\r\n\r\nfunction onAfterLoad()\r\n\tlocal pos = self.getPosition()\r\n\tlocal bounds = self.getBoundsNormalized()\r\n\tlocal rot = self.getRotation()\r\n\tlocal direction = 1.0\r\n\t\r\n\tif rot.y == 0 then\r\n\t\tdirection = -1.0\r\n\tend\r\n\t\r\n\tBB.Min.x = BB.Min.x + pos.x\r\n\tBB.Min.y = BB.Min.y + pos.y - 1.5\r\n\tBB.Min.z = (BB.Min.z * direction) + pos.z\r\n\t\r\n\tBB.Max.x = \tBB.Max.x + pos.x\r\n\tBB.Max.y = \tBB.Max.y + pos.y + ConcealedStorageHeight + 0.5\r\n\tBB.Max.z = (BB.Max.z * direction) + pos.z\r\n\t\r\n\tHideObjectsAbove( false )\r\nend\r\n\r\nfunction onButtonClick()\r\n\tlocal currentState = self.getStateId()\r\n\tlocal nextState = 1 + (currentState % 2)\r\n\t\r\n\tif currentState ~= StorageState then\r\n\t\tHideObjectsAbove( true )\r\n\tend\r\n\t\r\n\tself.setState( nextState )\r\nend\r\n\r\nfunction HideObjectsAbove( toggle )\r\n    local objectsAbove = {}\r\n\tlocal BBMin = { x = BB.Min.x, y = BB.Min.y, z = BB.Min.z }\r\n\tlocal BBMax = { x = BB.Max.x, y = BB.Max.y, z = BB.Max.z }\r\n\t\r\n\tif not toggle then\r\n\t\tBBMin.y = BBMin.y - ConceiledStorageOffset\r\n\t\tBBMax.y = BBMax.y - ConceiledStorageOffset\r\n\tend\r\n    \r\n    for k,v in pairs( getAllObjects() ) do\r\n        if v != self then\r\n            if PointToAABBIntersect( BBMin, BBMax, v.getPosition() ) then\r\n                if toggle then\r\n                    Store( v )\r\n                else\r\n                    Dispense( v )\r\n                end\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n-- Assumes ||min|| < ||max||\r\nfunction PointToAABBIntersect( min, max, point )\r\n    if IsInRange( point.x, min.x, max.x ) and\r\n       IsInRange( point.y, min.y, max.y ) and\r\n       IsInRange( point.z, min.z, max.z ) then\r\n\t   return true\r\n    end\r\n    \r\n    return false\r\nend\r\n\r\nfunction IsInRange( value, a, b )\r\n\tlocal min = 0\r\n\tlocal max = 0\r\n\t\r\n\tif a > b then\r\n\t\tmax = a\r\n\t\tmin = b\r\n\telse\r\n\t\tmax = b\r\n\t\tmin = a\r\n\tend\r\n\t\r\n\tif value > min and value < max then\r\n\t\treturn true\r\n\tend\r\n\t\r\n\treturn false\r\nend\r\n\r\nfunction Store( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal isLocked = obj.getLock()\r\n\t\r\n\tobj.setVar( \"LockStatus\", isLocked )\r\n\t\r\n    obj.interactable = false\r\n    obj.setLock( true )\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y - ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\nend\r\n\r\nfunction Dispense( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal originalLockStatus = obj.getVar( \"LockStatus\" )\r\n\t\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y + ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\n\t\r\n    obj.interactable = true\r\n\t\r\n\tif originalLockStatus ~= nil and originalLockStatus == true then\r\n\t\tobj.setLock( true )\r\n\telse\r\n\t\tobj.setLock( false )\r\n\tend\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1,
+            "Drag": 0.1,
+            "AngularDrag": 0.1,
+            "UseGravity": false
+          },
+          "GUID": "88b8d6"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0,
+        "posY": -41.99,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Board Cabinet",
+      "Description": "Click to open.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.249996,
+        "g": 0.249996,
+        "b": 0.249996
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808274507/801DDE162A6431250F18BADB2306A54FE4F9FAFF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 1000,\r\n    height = 750,\r\n    color = {1, 0, 0, 0.0},\r\n    position = {0, 40.7, 32.8},\r\n    rotation = {-90, 0, 0},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "3dcbdd",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 0,
+            "posY": -41.99,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Board Cabinet (Drawn)",
+          "Description": "Click on the handle to close.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.249999136,
+            "g": 0.249999136,
+            "b": 0.249999136
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808279018/1BE1733E66A6D19385888B136F4E6DEDFC257969/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "local ConcealedStorageHeight = 3.0\r\nlocal ConceiledStorageOffset = 10000.0\r\nlocal StorageState = 1\r\n\r\nlocal BB = {\r\n\tMin = {\r\n\t\tx = -16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -50.0\r\n\t},\r\n\tMax = {\r\n\t\tx = 16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -32.0\r\n\t}\r\n}\r\n\r\nfunction onLoad()\r\n    self.interactable = false;\r\n\t\r\n    self.createButton({\r\n\t\tlabel = \"\",\r\n\t\tclick_function = \"onButtonClick\",\r\n\t\tfunction_owner = self,\r\n\t\twidth = 1000,\r\n\t\theight = 750,\r\n\t\tcolor = {1, 0, 0, 0.0},\r\n\t\tposition = {0, 40.7, 50.5},\r\n\t\trotation = {-90, 0, 0},\r\n\t\tfont_size = 200\r\n    })\r\n\t\r\n\tif self.getStateId() ~= StorageState then\r\n    Timer.create({\r\n        identifier = (\"onAfterLoad\" .. self.guid),\r\n        function_name = \"onAfterLoad\",\r\n        delay = 0.2\r\n    })\r\n\tend\r\nend\r\n\r\nfunction onAfterLoad()\r\n\tlocal pos = self.getPosition()\r\n\tlocal bounds = self.getBoundsNormalized()\r\n\tlocal rot = self.getRotation()\r\n\tlocal direction = 1.0\r\n\t\r\n\tif rot.y == 0 then\r\n\t\tdirection = -1.0\r\n\tend\r\n\t\r\n\tBB.Min.x = BB.Min.x + pos.x\r\n\tBB.Min.y = BB.Min.y + pos.y - 1.5\r\n\tBB.Min.z = (BB.Min.z * direction) + pos.z\r\n\t\r\n\tBB.Max.x = \tBB.Max.x + pos.x\r\n\tBB.Max.y = \tBB.Max.y + pos.y + ConcealedStorageHeight + 0.5\r\n\tBB.Max.z = (BB.Max.z * direction) + pos.z\r\n\t\r\n\tHideObjectsAbove( false )\r\nend\r\n\r\nfunction onButtonClick()\r\n\tlocal currentState = self.getStateId()\r\n\tlocal nextState = 1 + (currentState % 2)\r\n\t\r\n\tif currentState ~= StorageState then\r\n\t\tHideObjectsAbove( true )\r\n\tend\r\n\t\r\n\tself.setState( nextState )\r\nend\r\n\r\nfunction HideObjectsAbove( toggle )\r\n    local objectsAbove = {}\r\n\tlocal BBMin = { x = BB.Min.x, y = BB.Min.y, z = BB.Min.z }\r\n\tlocal BBMax = { x = BB.Max.x, y = BB.Max.y, z = BB.Max.z }\r\n\t\r\n\tif not toggle then\r\n\t\tBBMin.y = BBMin.y - ConceiledStorageOffset\r\n\t\tBBMax.y = BBMax.y - ConceiledStorageOffset\r\n\tend\r\n    \r\n    for k,v in pairs( getAllObjects() ) do\r\n        if v != self then\r\n            if PointToAABBIntersect( BBMin, BBMax, v.getPosition() ) then\r\n                if toggle then\r\n                    Store( v )\r\n                else\r\n                    Dispense( v )\r\n                end\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n-- Assumes ||min|| < ||max||\r\nfunction PointToAABBIntersect( min, max, point )\r\n    if IsInRange( point.x, min.x, max.x ) and\r\n       IsInRange( point.y, min.y, max.y ) and\r\n       IsInRange( point.z, min.z, max.z ) then\r\n\t   return true\r\n    end\r\n    \r\n    return false\r\nend\r\n\r\nfunction IsInRange( value, a, b )\r\n\tlocal min = 0\r\n\tlocal max = 0\r\n\t\r\n\tif a > b then\r\n\t\tmax = a\r\n\t\tmin = b\r\n\telse\r\n\t\tmax = b\r\n\t\tmin = a\r\n\tend\r\n\t\r\n\tif value > min and value < max then\r\n\t\treturn true\r\n\tend\r\n\t\r\n\treturn false\r\nend\r\n\r\nfunction Store( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal isLocked = obj.getLock()\r\n\t\r\n\tobj.setVar( \"LockStatus\", isLocked )\r\n\t\r\n    obj.interactable = false\r\n    obj.setLock( true )\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y - ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\nend\r\n\r\nfunction Dispense( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal originalLockStatus = obj.getVar( \"LockStatus\" )\r\n\t\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y + ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\n\t\r\n    obj.interactable = true\r\n\t\r\n\tif originalLockStatus ~= nil and originalLockStatus == true then\r\n\t\tobj.setLock( true )\r\n\telse\r\n\t\tobj.setLock( false )\r\n\tend\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1,
+            "Drag": 0.1,
+            "AngularDrag": 0.1,
+            "UseGravity": false
+          },
+          "GUID": "661907"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 36,
+        "posY": -41.99,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Board Cabinet",
+      "Description": "Click to open.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.249995828,
+        "g": 0.249995828,
+        "b": 0.249995828
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808274507/801DDE162A6431250F18BADB2306A54FE4F9FAFF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n    self.interactable = false;\r\n    self.createButton({\r\n    label = \"\",\r\n    click_function = \"onButtonClick\",\r\n    function_owner = self,\r\n    width = 1000,\r\n    height = 750,\r\n    color = {1, 0, 0, 0.0},\r\n    position = {0, 40.7, 32.8},\r\n    rotation = {-90, 0, 0},\r\n    font_size = 200\r\n    })\r\nend\r\n\r\nfunction onButtonClick()\r\n    self.setState( 1 + (self.getStateId() % 2) )\r\n\r\nend",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "7d257b",
+      "States": {
+        "2": {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 36,
+            "posY": -41.99,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Board Cabinet (Drawn)",
+          "Description": "Click on the handle to close.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.2499989,
+            "g": 0.2499989,
+            "b": 0.2499989
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": false,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868496425808279018/1BE1733E66A6D19385888B136F4E6DEDFC257969/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 1,
+            "TypeIndex": 4,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "local ConcealedStorageHeight = 3.0\r\nlocal ConceiledStorageOffset = 10000.0\r\nlocal StorageState = 1\r\n\r\nlocal BB = {\r\n\tMin = {\r\n\t\tx = -16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -50.0\r\n\t},\r\n\tMax = {\r\n\t\tx = 16.0,\r\n\t\ty = 41.99,\r\n\t\tz = -32.0\r\n\t}\r\n}\r\n\r\nfunction onLoad()\r\n    self.interactable = false;\r\n\t\r\n    self.createButton({\r\n\t\tlabel = \"\",\r\n\t\tclick_function = \"onButtonClick\",\r\n\t\tfunction_owner = self,\r\n\t\twidth = 1000,\r\n\t\theight = 750,\r\n\t\tcolor = {1, 0, 0, 0.0},\r\n\t\tposition = {0, 40.7, 50.5},\r\n\t\trotation = {-90, 0, 0},\r\n\t\tfont_size = 200\r\n    })\r\n\t\r\n\tif self.getStateId() ~= StorageState then\r\n    Timer.create({\r\n        identifier = (\"onAfterLoad\" .. self.guid),\r\n        function_name = \"onAfterLoad\",\r\n        delay = 0.2\r\n    })\r\n\tend\r\nend\r\n\r\nfunction onAfterLoad()\r\n\tlocal pos = self.getPosition()\r\n\tlocal bounds = self.getBoundsNormalized()\r\n\tlocal rot = self.getRotation()\r\n\tlocal direction = 1.0\r\n\t\r\n\tif rot.y == 0 then\r\n\t\tdirection = -1.0\r\n\tend\r\n\t\r\n\tBB.Min.x = BB.Min.x + pos.x\r\n\tBB.Min.y = BB.Min.y + pos.y - 1.5\r\n\tBB.Min.z = (BB.Min.z * direction) + pos.z\r\n\t\r\n\tBB.Max.x = \tBB.Max.x + pos.x\r\n\tBB.Max.y = \tBB.Max.y + pos.y + ConcealedStorageHeight + 0.5\r\n\tBB.Max.z = (BB.Max.z * direction) + pos.z\r\n\t\r\n\tHideObjectsAbove( false )\r\nend\r\n\r\nfunction onButtonClick()\r\n\tlocal currentState = self.getStateId()\r\n\tlocal nextState = 1 + (currentState % 2)\r\n\t\r\n\tif currentState ~= StorageState then\r\n\t\tHideObjectsAbove( true )\r\n\tend\r\n\t\r\n\tself.setState( nextState )\r\nend\r\n\r\nfunction HideObjectsAbove( toggle )\r\n    local objectsAbove = {}\r\n\tlocal BBMin = { x = BB.Min.x, y = BB.Min.y, z = BB.Min.z }\r\n\tlocal BBMax = { x = BB.Max.x, y = BB.Max.y, z = BB.Max.z }\r\n\t\r\n\tif not toggle then\r\n\t\tBBMin.y = BBMin.y - ConceiledStorageOffset\r\n\t\tBBMax.y = BBMax.y - ConceiledStorageOffset\r\n\tend\r\n    \r\n    for k,v in pairs( getAllObjects() ) do\r\n        if v != self then\r\n            if PointToAABBIntersect( BBMin, BBMax, v.getPosition() ) then\r\n                if toggle then\r\n                    Store( v )\r\n                else\r\n                    Dispense( v )\r\n                end\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n-- Assumes ||min|| < ||max||\r\nfunction PointToAABBIntersect( min, max, point )\r\n    if IsInRange( point.x, min.x, max.x ) and\r\n       IsInRange( point.y, min.y, max.y ) and\r\n       IsInRange( point.z, min.z, max.z ) then\r\n\t   return true\r\n    end\r\n    \r\n    return false\r\nend\r\n\r\nfunction IsInRange( value, a, b )\r\n\tlocal min = 0\r\n\tlocal max = 0\r\n\t\r\n\tif a > b then\r\n\t\tmax = a\r\n\t\tmin = b\r\n\telse\r\n\t\tmax = b\r\n\t\tmin = a\r\n\tend\r\n\t\r\n\tif value > min and value < max then\r\n\t\treturn true\r\n\tend\r\n\t\r\n\treturn false\r\nend\r\n\r\nfunction Store( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal isLocked = obj.getLock()\r\n\t\r\n\tobj.setVar( \"LockStatus\", isLocked )\r\n\t\r\n    obj.interactable = false\r\n    obj.setLock( true )\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y - ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\nend\r\n\r\nfunction Dispense( obj )\r\n\tlocal pos = obj.getPosition()\r\n\tlocal originalLockStatus = obj.getVar( \"LockStatus\" )\r\n\t\r\n    obj.setPosition({\r\n        x = pos.x,\r\n        y = pos.y + ConceiledStorageOffset,\r\n        z = pos.z\r\n    })\r\n\t\r\n    obj.interactable = true\r\n\t\r\n\tif originalLockStatus ~= nil and originalLockStatus == true then\r\n\t\tobj.setLock( true )\r\n\telse\r\n\t\tobj.setLock( false )\r\n\tend\r\nend",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1,
+            "Drag": 0.1,
+            "AngularDrag": 0.1,
+            "UseGravity": false
+          },
+          "GUID": "5dd89b"
+        }
+      }
     }
   ],
   "SnapPoints": [
