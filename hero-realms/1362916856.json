@@ -3,7 +3,7 @@
   "GameMode": "Hero Realms Script",
   "Gravity": 0.5,
   "PlayArea": 0.5,
-  "Date": "4/16/2020 8:37:54 PM",
+  "Date": "4/16/2020 8:47:41 PM",
   "Table": "Table_None",
   "Sky": "Sky_Museum",
   "SkyURL": "http://i.imgur.com/0SPRr5J.jpg",
@@ -7036,9 +7036,9 @@
     {
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -41.3123474,
-        "posY": 0.954823256,
-        "posZ": -7.06713629,
+        "posX": -54.5872879,
+        "posY": 1.90214276,
+        "posZ": -5.27724457,
         "rotX": 0,
         "rotY": 90,
         "rotZ": 0,
@@ -7899,9 +7899,9 @@
     {
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -41.2473145,
-        "posY": 0.9548117,
-        "posZ": -4.22020531,
+        "posX": -54.5222549,
+        "posY": 1.9021337,
+        "posZ": -2.430314,
         "rotX": 0,
         "rotY": 89.9856,
         "rotZ": 0,
@@ -8760,9 +8760,9 @@
     {
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -41.1862869,
-        "posY": 0.9548004,
-        "posZ": -1.41377568,
+        "posX": -54.4612274,
+        "posY": 1.90214336,
+        "posZ": 0.37611565,
         "rotX": 0,
         "rotY": 89.98558,
         "rotZ": 0,
@@ -9621,9 +9621,9 @@
     {
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -41.16613,
-        "posY": 0.954787433,
-        "posZ": 1.50981069,
+        "posX": -54.44107,
+        "posY": 1.902136,
+        "posZ": 3.29970169,
         "rotX": 0,
         "rotY": 90,
         "rotZ": 0,
@@ -10482,9 +10482,9 @@
     {
       "Name": "Custom_Model_Bag",
       "Transform": {
-        "posX": -41.1496468,
-        "posY": 0.954773247,
-        "posZ": 4.8449254,
+        "posX": -54.4245872,
+        "posY": 1.90213585,
+        "posZ": 6.63481665,
         "rotX": 0,
         "rotY": 90,
         "rotZ": 0,
