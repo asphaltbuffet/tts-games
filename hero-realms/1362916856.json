@@ -77,21 +77,7 @@
           "rotZ": 0,
           "scaleX": 15.3269758,
           "scaleY": 11.8970528,
-          "scaleZ": 6.350195
-        }
-      },
-      {
-        "Color": "Brown",
-        "Transform": {
-          "posX": 0,
-          "posY": 3.34820342,
-          "posZ": -34.42515,
-          "rotX": 0,
-          "rotY": 0,
-          "rotZ": 0,
-          "scaleX": 15.3268919,
-          "scaleY": 11.8970528,
-          "scaleZ": 6.35014534
+          "scaleZ": 6.350442
         }
       },
       {
@@ -109,48 +95,6 @@
         }
       },
       {
-        "Color": "Orange",
-        "Transform": {
-          "posX": -51.6596222,
-          "posY": 3.34820342,
-          "posZ": -11.7324,
-          "rotX": 0,
-          "rotY": 90,
-          "rotZ": 0,
-          "scaleX": 15.1941023,
-          "scaleY": 11.8970528,
-          "scaleZ": 6.40572548
-        }
-      },
-      {
-        "Color": "Pink",
-        "Transform": {
-          "posX": 51.64263,
-          "posY": 3.34820342,
-          "posZ": -11.7324,
-          "rotX": 0,
-          "rotY": 270,
-          "rotZ": 0,
-          "scaleX": 15.194087,
-          "scaleY": 11.8970528,
-          "scaleZ": 6.40572548
-        }
-      },
-      {
-        "Color": "Purple",
-        "Transform": {
-          "posX": 51.5785675,
-          "posY": 3.34820342,
-          "posZ": 11.7324,
-          "rotX": 0,
-          "rotY": 270,
-          "rotZ": 0,
-          "scaleX": 15.194088,
-          "scaleY": 11.8970528,
-          "scaleZ": 6.40572548
-        }
-      },
-      {
         "Color": "Red",
         "Transform": {
           "posX": -23.6700039,
@@ -165,20 +109,6 @@
         }
       },
       {
-        "Color": "Teal",
-        "Transform": {
-          "posX": 0,
-          "posY": 3.34820342,
-          "posZ": 34.4527626,
-          "rotX": 0,
-          "rotY": 179.800049,
-          "rotZ": 0,
-          "scaleX": 15.3269777,
-          "scaleY": 11.8970528,
-          "scaleZ": 6.350195
-        }
-      },
-      {
         "Color": "White",
         "Transform": {
           "posX": 23.6700039,
@@ -190,20 +120,6 @@
           "scaleX": 15.3268747,
           "scaleY": 11.8970547,
           "scaleZ": 6.705048
-        }
-      },
-      {
-        "Color": "Yellow",
-        "Transform": {
-          "posX": -51.6596222,
-          "posY": 3.34820342,
-          "posZ": 11.7324,
-          "rotX": 0,
-          "rotY": 90,
-          "rotZ": 0,
-          "scaleX": 15.1941,
-          "scaleY": 11.8970528,
-          "scaleZ": 6.40572548
         }
       }
     ]
@@ -5152,43 +5068,6 @@
       "GUID": "12796c"
     },
     {
-      "Name": "RandomizeTrigger",
-      "Transform": {
-        "posX": -7.108986,
-        "posY": 3.51113462,
-        "posZ": 0.28676486,
-        "rotX": 0,
-        "rotY": 359.5005,
-        "rotZ": 0,
-        "scaleX": 39.4560623,
-        "scaleY": 5.1,
-        "scaleZ": 9.203587
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1,
-        "g": 1,
-        "b": 1,
-        "a": 0.509803951
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "0cbbbc"
-    },
-    {
       "Name": "ScriptingTrigger",
       "Transform": {
         "posX": -34.1336136,
@@ -5940,80 +5819,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "GUID": "959113"
-    },
-    {
-      "Name": "RandomizeTrigger",
-      "Transform": {
-        "posX": 29.841518399999998,
-        "posY": 3.51113462,
-        "posZ": 21.1007538,
-        "rotX": 0,
-        "rotY": 6.24532549e-05,
-        "rotZ": 0,
-        "scaleX": 4.490083,
-        "scaleY": 5.1,
-        "scaleZ": 6.42425442
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1,
-        "g": 1,
-        "b": 1,
-        "a": 0.509803951
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "8f624e"
-    },
-    {
-      "Name": "RandomizeTrigger",
-      "Transform": {
-        "posX": -34.212677,
-        "posY": 3.51113462,
-        "posZ": -20.9405231,
-        "rotX": 0,
-        "rotY": 6.24532549e-05,
-        "rotZ": 0,
-        "scaleX": 4.42097,
-        "scaleY": 5.1,
-        "scaleZ": 6.28607464
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "ColorDiffuse": {
-        "r": 1,
-        "g": 1,
-        "b": 1,
-        "a": 0.509803951
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "XmlUI": "",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "0fabb2"
     },
     {
       "Name": "Counter",
