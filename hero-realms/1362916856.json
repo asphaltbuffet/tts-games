@@ -3,7 +3,7 @@
   "GameMode": "Hero Realms Script",
   "Gravity": 0.5,
   "PlayArea": 0.5,
-  "Date": "4/16/2020 8:47:41 PM",
+  "Date": "4/18/2020 12:37:37 PM",
   "Table": "Table_None",
   "Sky": "Sky_Museum",
   "SkyURL": "http://i.imgur.com/0SPRr5J.jpg",
@@ -5685,7 +5685,7 @@
         "scaleY": 2.249999,
         "scaleZ": 2.249999
       },
-      "Nickname": "Descartar",
+      "Nickname": "Clear Board",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
@@ -5759,7 +5759,7 @@
         "scaleY": 2.249999,
         "scaleZ": 2.249999
       },
-      "Nickname": "Descartar",
+      "Nickname": "Clear Board",
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
