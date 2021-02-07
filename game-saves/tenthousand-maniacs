@@ -1,0 +1,367 @@
+{
+  "enhancements": [ {
+    "abilities": [ {
+      "enhancements": [ {
+        "enhancement": "Plus 1",
+        "position": 2
+      } ],
+      "name": "Defensive Stance"
+    } ],
+    "class": "Sunkeeper"
+  } ],
+  "events": [ {
+    "bottomUp": [ 46, 89, 27, 39, 24, 18, 82, 73, 26, 1, 88, 44, 86, 7, 2, 29, 87, 42, 90, 14, 45, 32, 83, 28, 84 ],
+    "deck": "city",
+    "remove": [ 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 25, 30 ]
+  }, {
+    "bottomUp": [ 9, 66, 7, 24, 28, 83, 15, 20, 1, 82, 39, 18, 42, 65, 31, 32, 30, 44, 6, 10, 14, 4, 12, 5, 26, 21, 3, 2 ],
+    "deck": "road",
+    "remove": [ 8, 11, 13, 16, 17, 19, 22, 23, 25, 27, 29 ]
+  } ],
+  "global": {
+    "achievements": [ {
+      "count": 3,
+      "name": "Ancient Technology"
+    }, {
+      "count": 1,
+      "name": "City Rule: Militaristic"
+    }, {
+      "count": 1,
+      "name": "The Rift Neutralized"
+    }, {
+      "count": 1,
+      "name": "The Drake Aided"
+    }, {
+      "count": 1,
+      "name": "The Merchant Flees"
+    }, {
+      "count": 1,
+      "name": "The Power of Enhancement"
+    }, {
+      "count": 1,
+      "name": "The Voice Silenced"
+    }, {
+      "count": 1,
+      "name": "Water-Breathing"
+    } ],
+    "prosperity": 15,
+    "scenarios": [ {
+      "number": 1,
+      "state": "Done"
+    }, {
+      "number": 2,
+      "state": "Done"
+    }, {
+      "number": 3,
+      "state": "Locked"
+    }, {
+      "number": 4,
+      "state": "Done"
+    }, {
+      "number": 5,
+      "state": "Done"
+    }, {
+      "number": 6,
+      "state": "Done"
+    }, {
+      "number": 7,
+      "state": "Done"
+    }, {
+      "number": 8,
+      "state": "Done"
+    }, {
+      "number": 10,
+      "state": "Locked"
+    }, {
+      "number": 13,
+      "state": "Done"
+    }, {
+      "number": 14,
+      "state": "Done"
+    }, {
+      "number": 15,
+      "state": "Open"
+    }, {
+      "number": 16,
+      "state": "Done"
+    }, {
+      "number": 18,
+      "state": "Done"
+    }, {
+      "number": 19,
+      "state": "Done"
+    }, {
+      "number": 20,
+      "state": "Done"
+    }, {
+      "number": 22,
+      "state": "Open"
+    }, {
+      "number": 23,
+      "state": "Done"
+    }, {
+      "number": 24,
+      "state": "Done"
+    }, {
+      "number": 25,
+      "state": "Done"
+    }, {
+      "number": 26,
+      "state": "Done"
+    }, {
+      "number": 27,
+      "state": "Done"
+    }, {
+      "number": 28,
+      "state": "Open"
+    }, {
+      "number": 30,
+      "state": "Done"
+    }, {
+      "number": 32,
+      "state": "Locked"
+    }, {
+      "number": 33,
+      "state": "Done"
+    }, {
+      "number": 34,
+      "state": "Locked"
+    }, {
+      "number": 42,
+      "state": "Done"
+    }, {
+      "number": 43,
+      "state": "Done"
+    }, {
+      "number": 57,
+      "state": "Done"
+    }, {
+      "number": 58,
+      "state": "Done"
+    }, {
+      "number": 65,
+      "state": "Done"
+    }, {
+      "number": 69,
+      "state": "Done"
+    }, {
+      "number": 72,
+      "state": "Open"
+    }, {
+      "number": 78,
+      "state": "Open"
+    }, {
+      "number": 81,
+      "state": "Done"
+    }, {
+      "number": 83,
+      "state": "Done"
+    }, {
+      "number": 93,
+      "state": "Done"
+    } ]
+  },
+  "metadata": {
+    "date": "2021-02-06'T'15:52",
+    "version": "1.0"
+  },
+  "party": {
+    "achievements": [ "First Steps - Bad Business - Following Clues", "Through the Ruins - The Drake's Command", "Jekserah's Plans - The Scepter and the Voice", "Dark Bounty - The Voice's Treasure", "Stonebreaker's Censer - The Drake's Treasure", "The Rift Neutralized - A Map to Treasure" ],
+    "characters": [ {
+      "abilities": [ "Blood Transfusion", "Do No Harm", "Hamstring", "Vital Strike" ],
+      "checkmarks": 1,
+      "class": "Sawbones",
+      "gold": 7,
+      "hiddenNotes": [],
+      "items": [ {
+        "name": "Flea-Bitten Shawl",
+        "position": "Armor"
+      }, {
+        "name": "Long Spear",
+        "position": "HandLeft"
+      }, {
+        "name": "Major Stamina Potion",
+        "position": "Bag1"
+      }, {
+        "name": "Winged Shoes",
+        "position": "Boots"
+      } ],
+      "name": "Dr. Jugsaw Ripperdoc, Ph.D.",
+      "notes": [],
+      "perks": [ 1, 2, 3, 13, 14, 15 ],
+      "quest": 524,
+      "xp": 197
+    }, {
+      "abilities": [ "Bag of Holding", "Bladed Boomerang", "Catastrophic Bomb", "Continual Supply", "Fortified Position", "Giant Club", "Portable Balliswta", "Quiver of Arrows", "Reforge", "Refreshments", "Reinforced Steel", "Scroll of Annihilation", "Scroll of Blizzards", "Scroll of Judgement", "Scroll of Lightning", "Side Pouch" ],
+      "checkmarks": 7,
+      "class": "Quartermaster",
+      "gold": 25,
+      "hiddenNotes": [],
+      "items": [ {
+        "name": "Cloak of Pockets",
+        "position": "Armor"
+      }, {
+        "name": "Doomed Compass",
+        "position": "Bag1"
+      }, {
+        "name": "Drakescale Helm",
+        "position": "Head"
+      }, {
+        "name": "Eagle-Eye Goggles",
+        "position": "Head"
+      }, {
+        "name": "Jagged Sword",
+        "position": "HandRight"
+      }, {
+        "name": "Major Stamina Potion",
+        "position": "Bag2"
+      }, {
+        "name": "Minor Mana Potion",
+        "position": "Bag3"
+      }, {
+        "name": "Minor Stamina Potion",
+        "position": "Unequipped"
+      }, {
+        "name": "Volatile Bomb",
+        "position": "HandLeft"
+      }, {
+        "name": "Winged Shoes",
+        "position": "Boots"
+      } ],
+      "name": "Niska",
+      "notes": [],
+      "perks": [ 1, 2, 3, 4, 5, 10, 15 ],
+      "quest": 531,
+      "xp": 337
+    }, {
+      "abilities": [ "Angelic Ascension", "Bright Aegis", "Burning Flash", "Cleansing Force", "Divine Intervention", "Engulfing Radiance", "Illuminate the Target", "Inspiring Sanctity", "Mobilizing Axiom", "Path of Glory", "Practical Plans", "Righteous Strength", "Scales of Justice", "Supportive Chant", "Unwavering Mandate", "Weapon of Purity" ],
+      "checkmarks": 9,
+      "class": "Sunkeeper",
+      "gold": 45,
+      "hiddenNotes": [],
+      "items": [ {
+        "name": "Boots of Striding",
+        "position": "Boots"
+      }, {
+        "name": "Heater Shield",
+        "position": "HandLeft"
+      }, {
+        "name": "Iron Helmet",
+        "position": "Head"
+      }, {
+        "name": "Major Stamina Potion",
+        "position": "Bag2"
+      }, {
+        "name": "Minor Stamina Potion",
+        "position": "Bag1"
+      }, {
+        "name": "Moon Earring",
+        "position": "Bag3"
+      }, {
+        "name": "Splintmail",
+        "position": "Armor"
+      }, {
+        "name": "Sun Shield",
+        "position": "HandRight"
+      } ],
+      "name": "Simonette",
+      "notes": [],
+      "perks": [ 1, 2, 3, 4, 5, 6, 8, 11, 14, 15 ],
+      "quest": 513,
+      "xp": 440
+    }, {
+      "abilities": [ "Black Arrow", "Grim Sustenance", "Prepare for the Kill", "Swallowed by Fear", "Terror Blade" ],
+      "checkmarks": 8,
+      "class": "Nightshroud",
+      "gold": 27,
+      "hiddenNotes": [],
+      "items": [ {
+        "name": "Battle-Axe",
+        "position": "HandLeft"
+      }, {
+        "name": "Boots of Striding",
+        "position": "Boots"
+      }, {
+        "name": "Circlet of Elements",
+        "position": "Head"
+      }, {
+        "name": "Cloak of Invisibility",
+        "position": "Armor"
+      }, {
+        "name": "Major Stamina Potion",
+        "position": "Bag3"
+      }, {
+        "name": "Minor Stamina Potion",
+        "position": "Bag2"
+      }, {
+        "name": "Night Blade",
+        "position": "HandRight"
+      } ],
+      "name": "",
+      "notes": [],
+      "perks": [ 1, 2, 3, 8, 13, 15 ],
+      "quest": 510,
+      "xp": 317
+    } ],
+    "location": "Internets",
+    "name": "10,000 Maniacs",
+    "notes": [],
+    "reputation": 16
+  },
+  "retired": [ {
+    "character": "Meryl",
+    "class": "Cragheart",
+    "level": 4,
+    "perks": 1,
+    "player": "Toren",
+    "quest": "A Study of Anatomy"
+  }, {
+    "character": "Scowndrel",
+    "class": "Scoundrel",
+    "level": 6,
+    "perks": 1,
+    "player": "Eldon",
+    "quest": "Aberrant Slayer"
+  }, {
+    "character": "Daryl",
+    "class": "Mindthief",
+    "level": 7,
+    "perks": 2,
+    "player": "Toren",
+    "quest": "Augmented Abilities"
+  }, {
+    "character": "Garyl",
+    "class": "Tinkerer",
+    "level": 6,
+    "perks": 1,
+    "player": "Ben",
+    "quest": "Greed is Good"
+  }, {
+    "character": "Pooplord Z",
+    "class": "Brute",
+    "level": 9,
+    "perks": 1,
+    "player": "Dave",
+    "quest": "The Thin Places"
+  }, {
+    "class": "Spellwvr",
+    "perks": 3,
+    "player": "Toren",
+    "quest": "Vengeance"
+  } ],
+  "unlocked": {
+    "classes": [ "Quartermaster", "Nightshroud", "Sawbones", "Sunkeeper" ],
+    "items": [ "Ancient Drill", "Ancient Drill", "Circlet of Elements", "Curious Gear", "Doomed Compass", "Drakescale Boots", "Flea-Bitten Shawl", "Frigid Blade", "Frigid Blade", "Fueled Falchion", "Helix Ring", "Minor Cure Potion", "Night Blade", "Ring of dSkulls", "Second Skin", "Skullbane Axe", "Splintmail", "Sun Shield", "Tremor Blade", "Tremor Blade", "Wand of Frost" ],
+    "sanctuary": 13,
+    "specialConditions": {
+      "ancientTechnology": false,
+      "donations": 10,
+      "drakeAided": true,
+      "highestReputation": false,
+      "highReputation": true,
+      "lowestReputation": false,
+      "lowReputation": false,
+      "retired": true
+    }
+  }
+}
