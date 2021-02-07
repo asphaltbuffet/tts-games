@@ -10,18 +10,21 @@
     "class": "Sunkeeper"
   } ],
   "events": [ {
-    "bottomUp": [ 46, 89, 27, 39, 24, 18, 82, 73, 26, 1, 88, 44, 86, 7, 2, 29, 87, 42, 90, 14, 45, 32, 83, 28, 84 ],
+    "bottomUp": [ 46, 89, 27, 39, 24, 18, 82, 73, 26, 1, 88, 44, 86, 7, 2, 29, 87, 42, 90, 14, 45, 32, 83 ],
     "deck": "city",
-    "remove": [ 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 25, 30 ]
+    "remove": [ 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 25, 28, 30 ]
   }, {
-    "bottomUp": [ 9, 66, 7, 24, 28, 83, 15, 20, 1, 82, 39, 18, 42, 65, 31, 32, 30, 44, 6, 10, 14, 4, 12, 5, 26, 21, 3, 2 ],
+    "bottomUp": [ 9, 66, 7, 24, 28, 83, 15, 20, 1, 82, 39, 18, 42, 65, 31, 32, 30, 44, 6, 10, 14, 4, 12, 5, 26, 21, 3 ],
     "deck": "road",
-    "remove": [ 8, 11, 13, 16, 17, 19, 22, 23, 25, 27, 29 ]
+    "remove": [ 2, 8, 11, 13, 16, 17, 19, 22, 23, 25, 27, 29 ]
   } ],
   "global": {
     "achievements": [ {
       "count": 3,
       "name": "Ancient Technology"
+    }, {
+      "count": 1,
+      "name": "Artifact: Recovered"
     }, {
       "count": 1,
       "name": "City Rule: Militaristic"
@@ -95,7 +98,7 @@
       "state": "Done"
     }, {
       "number": 22,
-      "state": "Open"
+      "state": "Done"
     }, {
       "number": 23,
       "state": "Done"
@@ -118,6 +121,9 @@
       "number": 30,
       "state": "Done"
     }, {
+      "number": 31,
+      "state": "Open"
+    }, {
       "number": 32,
       "state": "Locked"
     }, {
@@ -125,6 +131,12 @@
       "state": "Done"
     }, {
       "number": 34,
+      "state": "Locked"
+    }, {
+      "number": 35,
+      "state": "Locked"
+    }, {
+      "number": 36,
       "state": "Locked"
     }, {
       "number": 42,
@@ -162,16 +174,16 @@
     } ]
   },
   "metadata": {
-    "date": "2021-02-06'T'15:52",
+    "date": "2021-02-06'T'23:22",
     "version": "1.0"
   },
   "party": {
     "achievements": [ "First Steps - Bad Business - Following Clues", "Through the Ruins - The Drake's Command", "Jekserah's Plans - The Scepter and the Voice", "Dark Bounty - The Voice's Treasure", "Stonebreaker's Censer - The Drake's Treasure", "The Rift Neutralized - A Map to Treasure" ],
     "characters": [ {
-      "abilities": [ "Blood Transfusion", "Do No Harm", "Hamstring", "Vital Strike" ],
+      "abilities": [ "Amputate", "Blood Transfusion", "Do No Harm", "Hamstring", "Research the Cure", "Vital Strike" ],
       "checkmarks": 1,
       "class": "Sawbones",
-      "gold": 7,
+      "gold": 16,
       "hiddenNotes": [],
       "items": [ {
         "name": "Flea-Bitten Shawl",
@@ -188,14 +200,14 @@
       } ],
       "name": "Dr. Jugsaw Ripperdoc, Ph.D.",
       "notes": [],
-      "perks": [ 1, 2, 3, 13, 14, 15 ],
+      "perks": [ 1, 2, 3, 4, 13, 14, 15 ],
       "quest": 524,
-      "xp": 197
+      "xp": 226
     }, {
       "abilities": [ "Bag of Holding", "Bladed Boomerang", "Catastrophic Bomb", "Continual Supply", "Fortified Position", "Giant Club", "Portable Balliswta", "Quiver of Arrows", "Reforge", "Refreshments", "Reinforced Steel", "Scroll of Annihilation", "Scroll of Blizzards", "Scroll of Judgement", "Scroll of Lightning", "Side Pouch" ],
-      "checkmarks": 7,
+      "checkmarks": 10,
       "class": "Quartermaster",
-      "gold": 25,
+      "gold": 46,
       "hiddenNotes": [],
       "items": [ {
         "name": "Cloak of Pockets",
@@ -230,14 +242,14 @@
       } ],
       "name": "Niska",
       "notes": [],
-      "perks": [ 1, 2, 3, 4, 5, 10, 15 ],
+      "perks": [ 1, 2, 3, 4, 5, 10, 12, 15 ],
       "quest": 531,
-      "xp": 337
+      "xp": 357
     }, {
       "abilities": [ "Angelic Ascension", "Bright Aegis", "Burning Flash", "Cleansing Force", "Divine Intervention", "Engulfing Radiance", "Illuminate the Target", "Inspiring Sanctity", "Mobilizing Axiom", "Path of Glory", "Practical Plans", "Righteous Strength", "Scales of Justice", "Supportive Chant", "Unwavering Mandate", "Weapon of Purity" ],
-      "checkmarks": 9,
+      "checkmarks": 10,
       "class": "Sunkeeper",
-      "gold": 45,
+      "gold": 51,
       "hiddenNotes": [],
       "items": [ {
         "name": "Boots of Striding",
@@ -268,12 +280,12 @@
       "notes": [],
       "perks": [ 1, 2, 3, 4, 5, 6, 8, 11, 14, 15 ],
       "quest": 513,
-      "xp": 440
+      "xp": 462
     }, {
       "abilities": [ "Black Arrow", "Grim Sustenance", "Prepare for the Kill", "Swallowed by Fear", "Terror Blade" ],
       "checkmarks": 8,
       "class": "Nightshroud",
-      "gold": 27,
+      "gold": 36,
       "hiddenNotes": [],
       "items": [ {
         "name": "Battle-Axe",
@@ -297,11 +309,11 @@
         "name": "Night Blade",
         "position": "HandRight"
       } ],
-      "name": "",
+      "name": "Nitro",
       "notes": [],
       "perks": [ 1, 2, 3, 8, 13, 15 ],
       "quest": 510,
-      "xp": 317
+      "xp": 342
     } ],
     "location": "Internets",
     "name": "10,000 Maniacs",
@@ -352,7 +364,7 @@
   "unlocked": {
     "classes": [ "Quartermaster", "Nightshroud", "Sawbones", "Sunkeeper" ],
     "items": [ "Ancient Drill", "Ancient Drill", "Circlet of Elements", "Curious Gear", "Doomed Compass", "Drakescale Boots", "Flea-Bitten Shawl", "Frigid Blade", "Frigid Blade", "Fueled Falchion", "Helix Ring", "Minor Cure Potion", "Night Blade", "Ring of dSkulls", "Second Skin", "Skullbane Axe", "Splintmail", "Sun Shield", "Tremor Blade", "Tremor Blade", "Wand of Frost" ],
-    "sanctuary": 13,
+    "sanctuary": 14,
     "specialConditions": {
       "ancientTechnology": false,
       "donations": 10,
@@ -362,6 +374,7 @@
       "lowestReputation": false,
       "lowReputation": false,
       "retired": true
-    }
+    },
+    "treasures": [ 21 ]
   }
 }
