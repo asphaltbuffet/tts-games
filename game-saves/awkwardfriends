@@ -1,0 +1,403 @@
+{
+  "enhancements": [ {
+    "abilities": [ {
+      "enhancements": [ {
+        "enhancement": "Bless",
+        "position": 2
+      } ],
+      "name": "A Moment's Peace"
+    } ],
+    "class": "Doomstalker"
+  }, {
+    "abilities": [ {
+      "enhancements": [ {
+        "enhancement": "Jump",
+        "position": 2
+      } ],
+      "name": "Hastened Step"
+    }, {
+      "enhancements": [ {
+        "enhancement": "Bless",
+        "position": 1
+      } ],
+      "name": "Sharpening Kit"
+    } ],
+    "class": "Quartermaster"
+  } ],
+  "events": [ {
+    "bottomUp": [ 87, 24, 42, 80, 18, 40, 2, 4, 71, 54, 36, 20, 13, 47, 27, 84, 82, 38, 46, 89, 44, 26, 7, 31, 76, 59, 11, 6, 10, 3, 1 ],
+    "deck": "city",
+    "remove": [ 5, 8, 9, 12, 14, 15, 16, 17, 19, 21, 22, 23, 25, 28, 29, 30 ]
+  }, {
+    "bottomUp": [ 12, 31, 52, 6, 32, 1, 67, 57, 83, 16, 82, 3, 2, 4, 37, 9, 65, 38, 23, 33, 21, 54, 15, 46, 35, 36, 5, 47, 29, 14, 11, 42 ],
+    "deck": "road",
+    "remove": [ 7, 8, 10, 13, 17, 18, 19, 20, 22, 24, 25, 26, 27, 28, 30 ]
+  } ],
+  "global": {
+    "achievements": [ {
+      "count": 2,
+      "name": "Ancient Technology"
+    }, {
+      "count": 1,
+      "name": "Artifact: Cleansed"
+    }, {
+      "count": 1,
+      "name": "City Rule: Militaristic"
+    }, {
+      "count": 1,
+      "name": "The Rift Neutralized"
+    }, {
+      "count": 1,
+      "name": "The Edge of Darkness"
+    }, {
+      "count": 1,
+      "name": "The Merchant Flees"
+    }, {
+      "count": 1,
+      "name": "The Power of Enhancement"
+    }, {
+      "count": 1,
+      "name": "Water-Breathing"
+    } ],
+    "prosperity": 30,
+    "scenarios": [ {
+      "number": 1,
+      "state": "Done"
+    }, {
+      "number": 2,
+      "state": "Done"
+    }, {
+      "number": 3,
+      "state": "Done"
+    }, {
+      "number": 4,
+      "state": "Done"
+    }, {
+      "number": 5,
+      "state": "Done"
+    }, {
+      "number": 6,
+      "state": "Done"
+    }, {
+      "number": 7,
+      "state": "Done"
+    }, {
+      "number": 8,
+      "state": "Done"
+    }, {
+      "number": 9,
+      "state": "Locked"
+    }, {
+      "number": 10,
+      "state": "Done"
+    }, {
+      "number": 13,
+      "state": "Done"
+    }, {
+      "number": 14,
+      "state": "Done"
+    }, {
+      "number": 16,
+      "state": "Open"
+    }, {
+      "number": 17,
+      "state": "Done"
+    }, {
+      "number": 18,
+      "state": "Done"
+    }, {
+      "number": 19,
+      "state": "Done"
+    }, {
+      "number": 20,
+      "state": "Done"
+    }, {
+      "number": 21,
+      "state": "Done"
+    }, {
+      "number": 22,
+      "state": "Done"
+    }, {
+      "number": 23,
+      "state": "Done"
+    }, {
+      "number": 26,
+      "state": "Done"
+    }, {
+      "number": 27,
+      "state": "Open"
+    }, {
+      "number": 28,
+      "state": "Done"
+    }, {
+      "number": 29,
+      "state": "Open"
+    }, {
+      "number": 31,
+      "state": "Done"
+    }, {
+      "number": 35,
+      "state": "Locked"
+    }, {
+      "number": 36,
+      "state": "Locked"
+    }, {
+      "number": 37,
+      "state": "Open"
+    }, {
+      "number": 38,
+      "state": "Open"
+    }, {
+      "number": 39,
+      "state": "Open"
+    }, {
+      "number": 43,
+      "state": "Done"
+    }, {
+      "number": 52,
+      "state": "Done"
+    }, {
+      "number": 53,
+      "state": "Done"
+    }, {
+      "number": 54,
+      "state": "Done"
+    }, {
+      "number": 59,
+      "state": "Done"
+    }, {
+      "number": 60,
+      "state": "Done"
+    }, {
+      "number": 64,
+      "state": "Open"
+    }, {
+      "number": 65,
+      "state": "Open"
+    }, {
+      "number": 67,
+      "state": "Done"
+    }, {
+      "number": 69,
+      "state": "Open"
+    }, {
+      "number": 72,
+      "state": "Done"
+    }, {
+      "number": 73,
+      "state": "Open"
+    }, {
+      "number": 81,
+      "state": "Done"
+    }, {
+      "number": 82,
+      "state": "Done"
+    }, {
+      "number": 90,
+      "state": "Open"
+    }, {
+      "number": 93,
+      "state": "Open"
+    }, {
+      "number": 94,
+      "state": "Done"
+    }, {
+      "number": 95,
+      "state": "Open"
+    } ]
+  },
+  "metadata": {
+    "date": "2021-02-14'T'17:09",
+    "version": "1.0"
+  },
+  "party": {
+    "achievements": [ "First Steps - Dark Bounty", "Jekserah's Plan - An Invitation", "A Demon's Errand - Through the Ruins", "Stonebreakers Censer - Following Clues", "A Map to Treasure - Through the Nest" ],
+    "characters": [ [], {
+      "abilities": [ "Camouflage", "Expose", "Flight of Flame", "Press the Attack", "Wild Commad" ],
+      "checkmarks": 2,
+      "class": "Doomstalker",
+      "gold": 0,
+      "hiddenNotes": [],
+      "items": [ {
+        "name": "Major Healing Potion",
+        "position": "Bag3"
+      }, {
+        "name": "Major Stamina Potion",
+        "position": "Bag2"
+      }, {
+        "name": "Second Skin",
+        "position": "Armor"
+      }, {
+        "name": "Volatile Bomb",
+        "position": "HandLeft"
+      } ],
+      "name": "Walks Between the Rows",
+      "notes": [],
+      "perks": [ 1, 2, 3, 4, 5, 6, 12, 15 ],
+      "quest": 522,
+      "xp": 275
+    }, {
+      "abilities": [ "Bag of Holding", "Bladed Boomerang", "Catastrophic Bomb", "Continual Supply", "Fortified Position", "Giant Club", "Portable Balliswta", "Quiver of Arrows", "Reforge", "Refreshments", "Reinforced Steel", "Scroll of Annihilation", "Scroll of Blizzards", "Scroll of Judgement", "Scroll of Lightning", "Side Pouch" ],
+      "checkmarks": 4,
+      "class": "Quartermaster",
+      "gold": 56,
+      "hiddenNotes": [],
+      "items": [ {
+        "name": "Cloak of Pockets",
+        "position": "Armor"
+      }, {
+        "name": "Eagle-Eye Goggles",
+        "position": "Head"
+      }, {
+        "name": "Falcon Figurine",
+        "position": "Unequipped"
+      }, {
+        "name": "Major Power Potion",
+        "position": "Unequipped"
+      }, {
+        "name": "Major Stamina Potion",
+        "position": "Bag3"
+      }, {
+        "name": "Minor Stamina Potion",
+        "position": "Bag2"
+      }, {
+        "name": "Power Core",
+        "position": "Bag1"
+      }, {
+        "name": "Ring of Skulls",
+        "position": "Unequipped"
+      }, {
+        "name": "Tower Shield",
+        "position": "HandRight"
+      }, {
+        "name": "Volatile Bomb",
+        "position": "HandLeft"
+      } ],
+      "name": "Feros,the Iron Prince ",
+      "notes": [],
+      "perks": [ 1, 2, 3, 6, 7, 10, 11, 12, 13, 14 ],
+      "quest": 523,
+      "xp": 427
+    }, {
+      "abilities": [ "Illuminate the Target", "Mobilizing Axiom", "Path of Glory", "Practical Plans", "Righteous Strength", "Weapon of Purity" ],
+      "checkmarks": 5,
+      "class": "Sunkeeper",
+      "gold": 25,
+      "hiddenNotes": [],
+      "items": [ {
+        "name": "Battle-Axe",
+        "position": "HandRight"
+      }, {
+        "name": "Chain Mail",
+        "position": "Unequipped"
+      }, {
+        "name": "Horned Helm",
+        "position": "Head"
+      }, {
+        "name": "Jagged Sword",
+        "position": "HandLeft"
+      }, {
+        "name": "Minor Healing Potion",
+        "position": "Bag2"
+      }, {
+        "name": "Minor Mana Potion",
+        "position": "Bag3"
+      }, {
+        "name": "Minor Stamina Potion",
+        "position": "Bag1"
+      }, {
+        "name": "Winged Shoes",
+        "position": "Boots"
+      } ],
+      "name": "Thea",
+      "notes": [],
+      "perks": [ 1, 2, 3, 4, 5, 6, 7, 11, 14, 15 ],
+      "quest": 525,
+      "xp": 375
+    } ],
+    "location": "Internets",
+    "name": "Awkward Friends",
+    "notes": [],
+    "reputation": 18
+  },
+  "retired": [ {
+    "character": "Sylc Charlot",
+    "class": "Spellwvr",
+    "level": 4,
+    "perks": 6,
+    "player": "Ben",
+    "quest": "A Helping Hand"
+  }, {
+    "character": "Violet Twiggs",
+    "class": "Tinkerer",
+    "level": 5,
+    "perks": 7,
+    "player": "Brittany",
+    "quest": "Elemental Samples"
+  }, {
+    "character": "Randel Bludface",
+    "class": "Brute",
+    "level": 5,
+    "perks": 8,
+    "player": "Jim",
+    "quest": "Eternal Wanderer"
+  }, {
+    "character": "Bearemy/Jeremy",
+    "class": "Beast Trnt",
+    "level": 4,
+    "perks": 5,
+    "player": "Ben",
+    "quest": "Fearless Stand"
+  }, {
+    "character": "Thorne",
+    "class": "Scoundrel",
+    "level": 5,
+    "perks": 9,
+    "player": "Mike",
+    "quest": "Finding the Cure"
+  }, {
+    "character": "Krystal",
+    "class": "Cragheart",
+    "level": 6,
+    "perks": 9,
+    "player": "Ben",
+    "quest": "Goliath Toppler"
+  }, {
+    "character": "The Elementalst",
+    "class": "Elem.",
+    "level": 8,
+    "perks": 10,
+    "player": "Mike",
+    "quest": "Merchant Class"
+  }, {
+    "character": "Grimina",
+    "class": "Plague",
+    "level": 7,
+    "player": "Brittany",
+    "quest": "Pounds of Flesh"
+  }, {
+    "character": "???",
+    "class": "Mindthief",
+    "level": 9,
+    "player": "Jim",
+    "quest": "Seeker of Xorn"
+  }, {
+    "quest": "Trophy Hunt"
+  } ],
+  "unlocked": {
+    "classes": [ "Berserker", "Elementalist", "Quartermaster", "Beast Tyrant", "Soothsinger", "Plagueherald", "Sunkeeper", "Summoner", "Doomstalker", "Diviner" ],
+    "items": [ "Black Knife", "Blinking Cape", "Blinking Cape", "Drakescale Boots", "Elemental Boots", "Flea-Bitten Shawl", "Fueled Falchion", "Helix Ring", "Helm of the Mountain", "Horned Helm", "Horned Helm", "Master's Lute", "Power Core", "Ring of Skulls", "Ring of Skulls", "Robes of Summoning", "Second Skin", "Skullbane Axe", "Staff of Elements", "Staff of Elements", "Staff of Xorn", "Steel Ring", "Steel Ring", "Thief's Hood", "Tremor Blade", "Tremor Blade", "Utility Belt" ],
+    "sanctuary": 47,
+    "specialConditions": {
+      "ancientTechnology": false,
+      "donations": 10,
+      "drakeAided": false,
+      "highestReputation": true,
+      "highReputation": true,
+      "lowestReputation": false,
+      "lowReputation": false,
+      "retired": true
+    },
+    "treasures": [ 10, 14, 25, 32, 35, 39, 41, 50, 60, 62, 63, 66, 68, 69, 71, 72 ]
+  }
+}
