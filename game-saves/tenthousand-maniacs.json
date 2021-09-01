@@ -1,457 +1,248 @@
 {
-  "enhancements": [ {
-    "abilities": [ {
-      "enhancements": [ {
-        "enhancement": "Plus 1",
-        "position": 1
-      } ],
-      "name": "Cauterize"
-    }, {
-      "enhancements": [ {
-        "enhancement": "Jump",
-        "position": 2
-      } ],
-      "name": "Strength in Agony"
-    } ],
-    "class": "Berserker"
-  }, {
-    "abilities": [ {
-      "enhancements": [ {
-        "enhancement": "Bless",
-        "position": 2
-      } ],
-      "name": "A Moment's Peace"
-    } ],
-    "class": "Doomstalker"
-  }, {
-    "abilities": [ {
-      "enhancements": [ {
-        "enhancement": "Jump",
-        "position": 2
-      } ],
-      "name": "Hastened Step"
-    }, {
-      "enhancements": [ {
-        "enhancement": "Bless",
-        "position": 1
-      } ],
-      "name": "Sharpening Kit"
-    } ],
-    "class": "Quartermaster"
-  } ],
-  "events": [ {
-    "bottomUp": [ 24, 38, 1, 71, 87, 6, 54, 11, 4, 42, 46, 44, 89, 18, 20, 26, 82, 84, 31, 40, 47, 3, 2, 13, 27, 7, 76, 59, 10 ],
-    "deck": "city",
-    "remove": [ 5, 8, 9, 12, 14, 15, 16, 17, 19, 21, 22, 23, 25, 28, 29, 30 ]
-  }, {
-    "bottomUp": [ 14, 11, 12, 31, 52, 6, 32, 1, 67, 57, 83, 16, 82, 3, 2, 4, 37, 9, 65, 38, 23, 33, 21, 54, 15, 46, 35, 36, 5, 47, 29 ],
-    "deck": "road",
-    "remove": [ 7, 8, 10, 13, 17, 18, 19, 20, 22, 24, 25, 26, 27, 28, 30 ]
-  } ],
+  "enhancements": {
+    "Sawbones": {
+      "Hamstring": {
+        "2": "Jump"
+      }
+    },
+    "Sunkeeper": {
+      "Defensive Stance": {
+        "2": "Plus 1"
+      }
+    }
+  },
+  "events": {
+    "city": {
+      "bottomUp": [ 65, 24, 90, 7, 18, 80, 73, 76, 46, 67, 26, 2, 42, 1, 62, 59, 14 ],
+      "remove": [ 27, 29, 32, 39, 44, 45, 82, 83, 84, 85, 86, 87, 88, 89 ]
+    },
+    "road": {
+      "bottomUp": [ 18, 39, 6, 83, 42, 31, 82, 28, 59, 1, 3, 15, 65, 44, 32, 30, 10, 9, 7, 14, 20, 24, 66 ],
+      "remove": [ 4, 5, 12, 21, 26 ]
+    }
+  },
   "global": {
-    "achievements": [ {
-      "count": 2,
-      "name": "Ancient Technology"
-    }, {
-      "count": 1,
-      "name": "Artifact: Cleansed"
-    }, {
-      "count": 1,
-      "name": "City Rule: Militaristic"
-    }, {
-      "count": 1,
-      "name": "The Rift Neutralized"
-    }, {
-      "count": 1,
-      "name": "The Edge of Darkness"
-    }, {
-      "count": 1,
-      "name": "The Merchant Flees"
-    }, {
-      "count": 1,
-      "name": "The Power of Enhancement"
-    }, {
-      "count": 1,
-      "name": "Water-Breathing"
-    } ],
-    "prosperity": 31,
-    "scenarios": [ {
-      "number": 1,
-      "state": "Done"
-    }, {
-      "number": 2,
-      "state": "Done"
-    }, {
-      "number": 3,
-      "state": "Done"
-    }, {
-      "number": 4,
-      "state": "Done"
-    }, {
-      "number": 5,
-      "state": "Done"
-    }, {
-      "number": 6,
-      "state": "Done"
-    }, {
-      "number": 7,
-      "state": "Done"
-    }, {
-      "number": 8,
-      "state": "Done"
-    }, {
-      "number": 9,
-      "state": "Locked"
-    }, {
-      "number": 10,
-      "state": "Done"
-    }, {
-      "number": 13,
-      "state": "Done"
-    }, {
-      "number": 14,
-      "state": "Done"
-    }, {
-      "number": 16,
-      "state": "Open"
-    }, {
-      "number": 17,
-      "state": "Done"
-    }, {
-      "number": 18,
-      "state": "Done"
-    }, {
-      "number": 19,
-      "state": "Done"
-    }, {
-      "number": 20,
-      "state": "Done"
-    }, {
-      "number": 21,
-      "state": "Done"
-    }, {
-      "number": 22,
-      "state": "Done"
-    }, {
-      "number": 23,
-      "state": "Done"
-    }, {
-      "number": 26,
-      "state": "Done"
-    }, {
-      "number": 27,
-      "state": "Open"
-    }, {
-      "number": 28,
-      "state": "Done"
-    }, {
-      "number": 29,
-      "state": "Open"
-    }, {
-      "number": 31,
-      "state": "Done"
-    }, {
-      "number": 35,
-      "state": "Locked"
-    }, {
-      "number": 36,
-      "state": "Locked"
-    }, {
-      "number": 37,
-      "state": "Open"
-    }, {
-      "number": 38,
-      "state": "Done"
-    }, {
-      "number": 39,
-      "state": "Open"
-    }, {
-      "number": 43,
-      "state": "Done"
-    }, {
-      "number": 44,
-      "state": "Open"
-    }, {
-      "number": 48,
-      "state": "Open"
-    }, {
-      "number": 52,
-      "state": "Done"
-    }, {
-      "number": 53,
-      "state": "Done"
-    }, {
-      "number": 54,
-      "state": "Done"
-    }, {
-      "number": 59,
-      "state": "Done"
-    }, {
-      "number": 60,
-      "state": "Done"
-    }, {
-      "number": 64,
-      "state": "Done"
-    }, {
-      "number": 65,
-      "state": "Open"
-    }, {
-      "number": 67,
-      "state": "Done"
-    }, {
-      "number": 69,
-      "state": "Open"
-    }, {
-      "number": 72,
-      "state": "Done"
-    }, {
-      "number": 73,
-      "state": "Open"
-    }, {
-      "number": 81,
-      "state": "Done"
-    }, {
-      "number": 82,
-      "state": "Done"
-    }, {
-      "number": 90,
-      "state": "Done"
-    }, {
-      "number": 93,
-      "state": "Open"
-    }, {
-      "number": 94,
-      "state": "Done"
-    }, {
-      "number": 95,
-      "state": "Open"
-    } ]
+    "achievements": {
+      "Ancient Technology": 3,
+      "Artifact: Cleansed": 1,
+      "City Rule: Militaristic": 1,
+      "The Drake Aided": 1,
+      "The Merchant Flees": 1,
+      "The Power of Enhancement": 1,
+      "The Rift Neutralized": 1,
+      "The Voice Silenced": 1,
+      "Water-Breathing": 1
+    },
+    "prosperity": 19,
+    "scenarios": {
+      "1": "Done",
+      "10": "Locked",
+      "13": "Done",
+      "14": "Done",
+      "15": "Done",
+      "16": "Done",
+      "17": "Open",
+      "18": "Done",
+      "19": "Done",
+      "2": "Done",
+      "20": "Done",
+      "22": "Done",
+      "23": "Done",
+      "24": "Done",
+      "25": "Done",
+      "26": "Done",
+      "27": "Done",
+      "28": "Open",
+      "3": "Locked",
+      "30": "Done",
+      "31": "Done",
+      "32": "Locked",
+      "33": "Done",
+      "34": "Locked",
+      "35": "Locked",
+      "36": "Locked",
+      "37": "Done",
+      "38": "Open",
+      "39": "Done",
+      "4": "Done",
+      "42": "Done",
+      "43": "Done",
+      "46": "Open",
+      "47": "Open",
+      "5": "Done",
+      "52": "Done",
+      "53": "Done",
+      "54": "Open",
+      "57": "Done",
+      "58": "Done",
+      "6": "Done",
+      "65": "Done",
+      "69": "Done",
+      "7": "Done",
+      "72": "Done",
+      "78": "Done",
+      "8": "Done",
+      "81": "Done",
+      "83": "Done",
+      "93": "Done"
+    }
   },
   "metadata": {
-    "date": "2021-03-22'T'01:03",
-    "version": "1.0"
+    "date": "2021-09-01'T'00:00",
+    "version": "3.0"
+  },
+  "options": {
+    "difficulty": "Normal",
+    "enhanced": {
+      "appearance.background": "http://cloud-3.steamusercontent.com/ugc/1751317540805826116/76A381381F9C02D0032F7A0174564D659E6EE75B/",
+      "difficulty.openInformation": false,
+      "message.activeAbilities": false,
+      "message.hpChanges": "all",
+      "scenario.dealBattleGoals": true,
+      "scenario.hideAbilityCards": true,
+      "setup.scenarioPage": "spawn",
+      "setup.use3D": true,
+      "setup.useHiddenSetup": true,
+      "version.revisedStaminaPotions": false
+    },
+    "loadExtendedBattleGoals": true
   },
   "party": {
-    "achievements": [ "First Steps - Dark Bounty - Redthorn's Aid", "Jekserah's Plan - An Invitation", "A Demon's Errand - Through the Ruins", "Stonebreakers Censer - Following Clues", "A Map to Treasure - Through the Nest" ],
-    "characters": [ {
-      "abilities": [ "Break the Chains", "Burning Hatred", "Fatal Fury", "Flurry of Axes", "Shiny Distraction", "Unstoppable Destruction" ],
-      "checkmarks": 3,
-      "class": "Berserker",
-      "gold": 5,
-      "hiddenNotes": [],
-      "items": [ {
-        "name": "Eagle-Eye Goggles",
-        "position": "Head"
-      }, {
-        "name": "Endurance Footwraps",
-        "position": "Boots"
-      }, {
-        "name": "Major Stamina Potion",
-        "position": "Bag3"
-      }, {
-        "name": "Splintmail",
-        "position": "Armor"
-      }, {
-        "name": "War Hammer",
-        "position": "HandRight"
-      } ],
-      "name": "Lucy",
-      "notes": [ "3 - oozes", "0 - lurkers", "0 - spitting drakes" ],
-      "perks": [ 1, 2, 3, 4, 5, 6, 9, 11, 12, 13, 14, 15 ],
-      "quest": 533,
-      "xp": 354
-    }, {
-      "abilities": [ "Camouflage", "Expose", "Flight of Flame", "Press the Attack", "Wild Commad" ],
-      "checkmarks": 3,
-      "class": "Doomstalker",
-      "gold": 52,
-      "hiddenNotes": [],
-      "items": [ {
-        "name": "Major Healing Potion",
-        "position": "Bag3"
-      }, {
-        "name": "Major Stamina Potion",
-        "position": "Bag2"
-      }, {
-        "name": "Second Skin",
-        "position": "Armor"
-      }, {
-        "name": "Volatile Bomb",
-        "position": "HandLeft"
-      } ],
-      "name": "Walks Between the Rows",
-      "notes": [],
-      "perks": [ 1, 2, 3, 4, 5, 6, 7, 12, 15 ],
-      "quest": 522,
-      "xp": 354
-    }, {
-      "abilities": [ "Bag of Holding", "Bladed Boomerang", "Catastrophic Bomb", "Continual Supply", "Fortified Position", "Giant Club", "Portable Balliswta", "Quiver of Arrows", "Reforge", "Refreshments", "Reinforced Steel", "Scroll of Annihilation", "Scroll of Blizzards", "Scroll of Judgement", "Scroll of Lightning", "Side Pouch" ],
-      "checkmarks": 6,
-      "class": "Quartermaster",
-      "gold": 27,
-      "hiddenNotes": [],
-      "items": [ {
-        "name": "Boots of Quickness",
-        "position": "Boots"
-      }, {
-        "name": "Cloak of Pockets",
-        "position": "Armor"
-      }, {
-        "name": "Eagle-Eye Goggles",
-        "position": "Head"
-      }, {
-        "name": "Falcon Figurine",
-        "position": "Unequipped"
-      }, {
-        "name": "Major Power Potion",
-        "position": "Bag1"
-      }, {
-        "name": "Major Stamina Potion",
-        "position": "Bag3"
-      }, {
-        "name": "Minor Stamina Potion",
-        "position": "Bag2"
-      }, {
-        "name": "Power Core",
-        "position": "Unequipped"
-      }, {
-        "name": "Ring of Skulls",
-        "position": "Unequipped"
-      }, {
-        "name": "Tower Shield",
-        "position": "HandRight"
-      }, {
-        "name": "Volatile Bomb",
-        "position": "HandLeft"
-      } ],
-      "name": "Feros,the Iron Prince ",
-      "notes": [],
-      "perks": [ 1, 2, 3, 6, 7, 8, 10, 11, 12, 13, 14 ],
-      "quest": 523,
-      "xp": 511
-    }, {
-      "abilities": [ "Cleansing Force", "Illuminate the Target", "Mobilizing Axiom", "Path of Glory", "Practical Plans", "Righteous Strength", "Weapon of Purity" ],
-      "checkmarks": 6,
-      "class": "Sunkeeper",
-      "gold": 31,
-      "hiddenNotes": [],
-      "items": [ {
-        "name": "Battle-Axe",
-        "position": "HandRight"
-      }, {
-        "name": "Chain Mail",
-        "position": "Armor"
-      }, {
-        "name": "Horned Helm",
-        "position": "Head"
-      }, {
-        "name": "Jagged Sword",
-        "position": "HandLeft"
-      }, {
-        "name": "Minor Healing Potion",
-        "position": "Bag2"
-      }, {
-        "name": "Minor Mana Potion",
-        "position": "Bag3"
-      }, {
-        "name": "Minor Stamina Potion",
-        "position": "Bag1"
-      }, {
-        "name": "Winged Shoes",
-        "position": "Boots"
-      } ],
-      "name": "Thea",
-      "notes": [],
-      "perks": [ 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 14, 15 ],
-      "quest": 525,
-      "xp": 461
-    } ],
+    "achievements": [ "First Steps - Bad Business - Following Clues", "Through the Trench -Through the Ruins - The Drake's Command", "Jekserah's Plans - The Scepter and the Voice", "Dark Bounty - The Voice's Treasure - Across the Divide", "Stonebreaker's Censer - The Drake's Treasure", "The Rift Neutralized - A Map to Treasure" ],
+    "characters": {
+      "1": {
+        "abilities": [ "Amputate", "Do No Harm", "Gentleman's Anger", "Hamstring", "Research the Cure", "Surgeon's Satchel", "Vital Strike" ],
+        "checkmarks": 6,
+        "class": "Sawbones",
+        "gold": 50,
+        "hand": [ "Hamstring", "Surgeon's Satchel", "Vital Strike", "Hold Back the Pain", "Gentleman's Anger", "Syringe", "Do No Harm", "Research the Cure", "Amputate", "Curative Mixture" ],
+        "items": {
+          "Armor": [ "Flea-Bitten Shawl" ],
+          "Bag1": [ "Major Stamina Potion" ],
+          "Bag2": [ "Minor Stamina Potion" ],
+          "Bag3": [ "Moon Earring" ],
+          "Boots": [ "Winged Shoes" ],
+          "HandLeft": [ "Long Spear" ],
+          "Head": [ "Eagle-Eye Goggles" ]
+        },
+        "name": "Dr. Jugsaw Ripperdoc, PhDD.",
+        "perks": [ 1, 2, 3, 4, 5, 6, 7, 13, 14, 15 ],
+        "quest": 524,
+        "xp": 493
+      },
+      "2": {
+        "checkmarks": 1,
+        "class": "Diviner",
+        "gold": 0,
+        "hand": [ "Duality Shards", "Cursed Ground", "Otherworldly Journey", "Protective Aura", "Dimensional Transfer", "Clairvoyance", "Bad Omen", "Inspiration from Beyond", "Peer into Battle", "Anticipate Intricacies", "Ray of Light", "Void Snare" ],
+        "items": {
+          "Armor": [ "Cloak of Invisibility" ],
+          "Bag2": [ "Minor Mana Potion" ],
+          "Bag3": [ "Minor Stamina Potion" ],
+          "Boots": [ "Winged Shoes" ]
+        },
+        "name": "tbd",
+        "perks": [ 1, 3, 7, 8, 15 ],
+        "quest": 521,
+        "xp": 150
+      },
+      "3": {
+        "abilities": [ "Fearsome Efficiency", "Repeat Shot", "The New Favorite" ],
+        "checkmarks": 5,
+        "class": "Hatchet",
+        "gold": 79,
+        "hand": [ "Follow Through", "Stopping Power", "The New Favorite", "Power Pitch", "Close Cuts", "Disorienting Barrage", "Fearsome Efficiency", "Center Mass", "Retrieval", "Repeat Shot" ],
+        "name": "Woody",
+        "notes": [ "Living Spirit", "Cultist", "Living Bones", "Spitting Drakes", "Cave Bear", "Ice Demon" ],
+        "perks": [ 1, 2, 3, 4, 5, 7 ],
+        "quest": 517,
+        "xp": 245
+      },
+      "4": {
+        "checkmarks": 0,
+        "class": "Plagueherald",
+        "gold": 75,
+        "hand": [ "Scattered Terror", "Winged Congregation", "Blistering Vortex", "Spread the Plague", "Paralyzing Bite", "Foul Wind", "Epidemic", "Biting Gnats", "Virulent Strain", "Vile Pestilence", "Grasping Vermin", "Creeping Curse", "Gathering Doom", "Wretched Swarm" ],
+        "name": "Sunshine",
+        "perks": [ 1, 2, 3, 6, 7 ],
+        "xp": 150
+      }
+    },
     "location": "Internets",
-    "name": "Awkward Friends",
-    "notes": [],
-    "reputation": 18
+    "name": "10,000 Maniacs",
+    "reputation": 17
   },
   "retired": [ {
-    "character": "Sylc Charlot",
-    "class": "Spellwvr",
+    "character": "Meryl",
+    "class": "Cragheart",
     "level": 4,
-    "perks": 6,
-    "player": "Ben",
-    "quest": "A Helping Hand"
+    "perks": 1,
+    "player": "Toren",
+    "quest": "A Study of Anatomy"
   }, {
-    "character": "Violet Twiggs",
+    "character": "Scowndrel",
+    "class": "Scoundrel",
+    "level": 6,
+    "perks": 1,
+    "player": "Eldon",
+    "quest": "Aberrant Slayer"
+  }, {
+    "character": "Daryl",
+    "class": "Mindthief",
+    "level": 7,
+    "perks": 2,
+    "player": "Toren",
+    "quest": "Augmented Abilities"
+  }, {
+    "character": "Garyl",
     "class": "Tinkerer",
-    "level": 5,
-    "perks": 7,
-    "player": "Brittany",
+    "level": 6,
+    "perks": 1,
+    "player": "Ben",
     "quest": "Elemental Samples"
   }, {
-    "character": "Randel Bludface",
+    "character": "Pooplord Z",
     "class": "Brute",
-    "level": 5,
-    "perks": 8,
-    "player": "Jim",
-    "quest": "Eternal Wanderer"
-  }, {
-    "character": "Bearemy/Jeremy",
-    "class": "Beast Trnt",
-    "level": 4,
-    "perks": 5,
-    "player": "Ben",
-    "quest": "Fearless Stand"
-  }, {
-    "character": "Thorne",
-    "class": "Scoundrel",
-    "level": 5,
-    "perks": 9,
-    "player": "Mike",
+    "level": 9,
+    "perks": 1,
+    "player": "Dave",
     "quest": "Finding the Cure"
   }, {
-    "character": "Krystal",
-    "class": "Cragheart",
-    "level": 6,
-    "perks": 9,
-    "player": "Ben",
-    "quest": "Goliath Toppler"
+    "class": "Spellwvr",
+    "perks": 3,
+    "player": "Toren",
+    "quest": "Greed is Good"
   }, {
-    "character": "The Elementalst",
-    "class": "Elem.",
-    "level": 8,
-    "perks": 10,
-    "player": "Mike",
-    "quest": "Merchant Class"
-  }, {
-    "character": "Grimina",
-    "class": "Plague",
-    "level": 7,
-    "player": "Brittany",
-    "quest": "Pounds of Flesh"
-  }, {
-    "character": "???",
-    "class": "Mindthief",
+    "character": "Buzz Killington",
+    "class": "Quarter",
     "level": 9,
-    "player": "Jim",
+    "perks": 2,
+    "player": "Dave",
     "quest": "Seeker of Xorn"
   }, {
-    "class": "Soothsgr",
+    "character": "Nitro",
+    "class": "Nightsh",
     "level": 9,
+    "perks": 2,
     "player": "Ben",
-    "quest": "Trophy Hunt"
+    "quest": "The Thin Places"
+  }, {
+    "quest": "Vengeance"
   } ],
   "unlocked": {
-    "classes": [ "Berserker", "Elementalist", "Quartermaster", "Beast Tyrant", "Soothsinger", "Plagueherald", "Sunkeeper", "Summoner", "Doomstalker", "Diviner" ],
-    "items": [ "Black Censer", "Black Knife", "Blinking Cape", "Blinking Cape", "Drakescale Boots", "Elemental Boots", "Endurance Footwraps", "Flea-Bitten Shawl", "Fueled Falchion", "Helix Ring", "Helm of the Mountain", "Horned Helm", "Horned Helm", "Major Cure Potion", "Master's Lute", "Power Core", "Ring of Skulls", "Ring of Skulls", "Robes of Summoning", "Second Skin", "Skullbane Axe", "Staff of Elements", "Staff of Elements", "Staff of Xorn", "Steel Ring", "Steel Ring", "Thief's Hood", "Tremor Blade", "Tremor Blade", "Utility Belt", "Wave Crest" ],
-    "sanctuary": 51,
+    "classes": [ "Elementalist", "Nightshroud", "Plagueherald", "Quartermaster", "Sawbones", "Sunkeeper" ],
+    "items": [ "Ancient Drill", "Ancient Drill", "Circlet of Elements", "Curious Gear", "Doomed Compass", "Drakescale Boots", "Drakescale Helm", "Flea-Bitten Shawl", "Frigid Blade", "Frigid Blade", "Fueled Falchion", "Helix Ring", "Minor Cure Potion", "Night Blade", "Ring of Skulls", "Robes of Summoning", "Second Skin", "Skullbane Axe", "Splintmail", "Staff of Xorn", "Steel Ring", "Sun Shield", "Tremor Blade", "Tremor Blade", "Wand of Frost" ],
+    "sanctuary": 21,
     "specialConditions": {
       "ancientTechnology": false,
       "donations": 10,
-      "drakeAided": false,
+      "drakeAided": true,
       "highestReputation": true,
       "highReputation": true,
       "lowestReputation": false,
       "lowReputation": false,
       "retired": true
     },
-    "treasures": [ 9, 10, 14, 25, 32, 35, 39, 41, 50, 60, 62, 63, 66, 68, 69, 71, 72 ]
+    "treasures": [ 21, 31, 46, 49 ]
   }
 }
