@@ -13,12 +13,12 @@
   },
   "events": {
     "city": {
-      "bottomUp": [ 65, 24, 90, 7, 18, 80, 73, 76, 46, 67, 26, 2, 42, 1, 62, 59, 14 ],
-      "remove": [ 27, 29, 32, 39, 44, 45, 82, 83, 84, 85, 86, 87, 88, 89 ]
+      "bottomUp": [ 65, 24, 90, 7, 18, 80, 73, 76, 46, 67, 26, 2, 42, 1, 62, 59 ],
+      "remove": [ 14, 27, 29, 32, 39, 44, 45, 82, 83, 84, 85, 86, 87, 88, 89 ]
     },
     "road": {
-      "bottomUp": [ 18, 39, 6, 83, 42, 31, 82, 28, 59, 1, 3, 15, 65, 44, 32, 30, 10, 9, 7, 14, 20, 24, 66 ],
-      "remove": [ 4, 5, 12, 21, 26 ]
+      "bottomUp": [ 18, 39, 6, 83, 42, 31, 82, 28, 59, 1, 3, 15, 65, 44, 32, 30, 10, 9, 7, 14, 20, 24 ],
+      "remove": [ 4, 5, 12, 21, 26, 66 ]
     }
   },
   "global": {
@@ -88,7 +88,7 @@
     }
   },
   "metadata": {
-    "date": "2021-09-01'T'00:00",
+    "date": "2021-09-18'T'23:23",
     "version": "3.0"
   },
   "options": {
@@ -98,7 +98,7 @@
       "difficulty.openInformation": false,
       "message.activeAbilities": false,
       "message.hpChanges": "all",
-      "scenario.dealBattleGoals": true,
+      "scenario.dealBattleGoals": false,
       "scenario.hideAbilityCards": true,
       "setup.scenarioPage": "spawn",
       "setup.use3D": true,
@@ -111,11 +111,11 @@
     "achievements": [ "First Steps - Bad Business - Following Clues", "Through the Trench -Through the Ruins - The Drake's Command", "Jekserah's Plans - The Scepter and the Voice", "Dark Bounty - The Voice's Treasure - Across the Divide", "Stonebreaker's Censer - The Drake's Treasure", "The Rift Neutralized - A Map to Treasure" ],
     "characters": {
       "1": {
-        "abilities": [ "Amputate", "Do No Harm", "Gentleman's Anger", "Hamstring", "Research the Cure", "Surgeon's Satchel", "Vital Strike" ],
+        "abilities": [ "Amputate", "Do No Harm", "Gentleman's Anger", "Grisly Trauma", "Hamstring", "Research the Cure", "Surgeon's Satchel", "Vital Strike" ],
         "checkmarks": 6,
         "class": "Sawbones",
-        "gold": 50,
-        "hand": [ "Hamstring", "Surgeon's Satchel", "Vital Strike", "Hold Back the Pain", "Gentleman's Anger", "Syringe", "Do No Harm", "Research the Cure", "Amputate", "Curative Mixture" ],
+        "gold": 75,
+        "hand": [ "Hold Back the Pain", "Grisly Trauma", "Curative Mixture", "Surgeon's Satchel", "Hamstring", "Gentleman's Anger", "Research the Cure", "Amputate", "Vital Strike", "Do No Harm" ],
         "items": {
           "Armor": [ "Flea-Bitten Shawl" ],
           "Bag1": [ "Major Stamina Potion" ],
@@ -126,51 +126,73 @@
           "Head": [ "Eagle-Eye Goggles" ]
         },
         "name": "Dr. Jugsaw Ripperdoc, PhDD.",
+        "notes": [ "Elites killed: 14" ],
         "perks": [ 1, 2, 3, 4, 5, 6, 7, 13, 14, 15 ],
         "quest": 524,
-        "xp": 493
+        "xp": 506
       },
       "2": {
+        "abilities": [ "Call of the Nether", "Preordain the Path", "Revitalizing Fount" ],
         "checkmarks": 1,
         "class": "Diviner",
-        "gold": 0,
-        "hand": [ "Duality Shards", "Cursed Ground", "Otherworldly Journey", "Protective Aura", "Dimensional Transfer", "Clairvoyance", "Bad Omen", "Inspiration from Beyond", "Peer into Battle", "Anticipate Intricacies", "Ray of Light", "Void Snare" ],
+        "gold": 3,
+        "hand": [ "Peer into Battle", "Otherworldly Journey", "Revitalizing Fount", "Void Snare", "Protective Aura", "Preordain the Path", "Inspiration from Beyond", "Duality Shards", "Call of the Nether" ],
         "items": {
           "Armor": [ "Cloak of Invisibility" ],
           "Bag2": [ "Minor Mana Potion" ],
           "Bag3": [ "Minor Stamina Potion" ],
-          "Boots": [ "Winged Shoes" ]
+          "Boots": [ "Endurance Footwraps", "Winged Shoes" ]
         },
-        "name": "tbd",
+        "name": "Chuck Awesomelaser",
         "perks": [ 1, 3, 7, 8, 15 ],
         "quest": 521,
-        "xp": 150
+        "xp": 159
       },
       "3": {
         "abilities": [ "Fearsome Efficiency", "Repeat Shot", "The New Favorite" ],
         "checkmarks": 5,
         "class": "Hatchet",
-        "gold": 79,
-        "hand": [ "Follow Through", "Stopping Power", "The New Favorite", "Power Pitch", "Close Cuts", "Disorienting Barrage", "Fearsome Efficiency", "Center Mass", "Retrieval", "Repeat Shot" ],
+        "gold": 113,
+        "hand": [ "Close Cuts", "Center Mass", "Power Pitch", "Repeat Shot", "The New Favorite", "Stopping Power", "Fearsome Efficiency", "Follow Through", "Disorienting Barrage", "Retrieval" ],
+        "hiddenNotes": [ "TGl2aW5nIFNwaXJpdA==", "Q3VsdGlzdA==", "TGl2aW5nIEJvbmVz", "U3BpdHRpbmcgRHJha2Vz", "Q2F2ZSBCZWFy", "SWNlIERlbW9u" ],
+        "items": {
+          "Bag2": [ "Minor Stamina Potion" ],
+          "Bag3": [ "Major Stamina Potion" ],
+          "Boots": [ "Boots of Striding" ],
+          "HandRight": [ "Wand of Tremors" ]
+        },
         "name": "Woody",
-        "notes": [ "Living Spirit", "Cultist", "Living Bones", "Spitting Drakes", "Cave Bear", "Ice Demon" ],
+        "notes": [ "Liv Spirit   Cultist", "Liv Bones   Spitng Drakes   ", "Cave Bear   Ice Demon" ],
         "perks": [ 1, 2, 3, 4, 5, 7 ],
         "quest": 517,
-        "xp": 245
+        "xp": 248
       },
       "4": {
+        "abilities": [ "Fetid Flurry", "Nightmarish Affliction", "Rot Maggots" ],
         "checkmarks": 0,
         "class": "Plagueherald",
-        "gold": 75,
-        "hand": [ "Scattered Terror", "Winged Congregation", "Blistering Vortex", "Spread the Plague", "Paralyzing Bite", "Foul Wind", "Epidemic", "Biting Gnats", "Virulent Strain", "Vile Pestilence", "Grasping Vermin", "Creeping Curse", "Gathering Doom", "Wretched Swarm" ],
-        "name": "Sunshine",
-        "perks": [ 1, 2, 3, 6, 7 ],
-        "xp": 150
+        "gold": 30,
+        "hand": [ "Wretched Swarm", "Fetid Flurry", "Spread the Plague", "Winged Congregation", "Nightmarish Affliction", "Gathering Doom", "Biting Gnats", "Virulent Strain", "Vile Pestilence", "Rot Maggots", "Creeping Curse" ],
+        "items": {
+          "Bag2": [ "Minor Stamina Potion" ],
+          "Bag3": [ "Minor Power Potion" ],
+          "Boots": [ "Boots of Striding" ],
+          "Head": [ "Eagle-Eye Goggles" ]
+        },
+        "name": "Harold",
+        "perks": [ 1, 2, 3, 4, 5 ],
+        "quest": 516,
+        "xp": 158
       }
     },
     "location": "Internets",
     "name": "10,000 Maniacs",
-    "reputation": 17
+    "reputation": 19
+  },
+  "players": {
+    "Blue": {
+      "notes": "TGl2aW5nIFNwaXJpdApDdWx0aXN0CkxpdmluZyBCb25lcwpTcGl0dGluZyBEcmFrZXMKQ2F2ZSBCZWFyCkljZSBEZW1vbgpTdG9uZSBHb2xlbQpJbm94IFNoYW1hbgpJbm94IEFyY2hlcg=="
+    }
   },
   "retired": [ {
     "character": "Meryl",
@@ -201,7 +223,7 @@
     "player": "Ben",
     "quest": "Elemental Samples"
   }, {
-    "character": "Pooplord Z",
+    "character": "Pooplord Zoosme",
     "class": "Brute",
     "level": 9,
     "perks": 1,
@@ -218,20 +240,22 @@
     "level": 9,
     "perks": 2,
     "player": "Dave",
-    "quest": "Seeker of Xorn"
+    "quest": "Merchant Class"
   }, {
     "character": "Nitro",
     "class": "Nightsh",
     "level": 9,
     "perks": 2,
     "player": "Ben",
+    "quest": "Seeker of Xorn"
+  }, {
     "quest": "The Thin Places"
   }, {
     "quest": "Vengeance"
   } ],
   "unlocked": {
     "classes": [ "Elementalist", "Nightshroud", "Plagueherald", "Quartermaster", "Sawbones", "Sunkeeper" ],
-    "items": [ "Ancient Drill", "Ancient Drill", "Circlet of Elements", "Curious Gear", "Doomed Compass", "Drakescale Boots", "Drakescale Helm", "Flea-Bitten Shawl", "Frigid Blade", "Frigid Blade", "Fueled Falchion", "Helix Ring", "Minor Cure Potion", "Night Blade", "Ring of Skulls", "Robes of Summoning", "Second Skin", "Skullbane Axe", "Splintmail", "Staff of Xorn", "Steel Ring", "Sun Shield", "Tremor Blade", "Tremor Blade", "Wand of Frost" ],
+    "items": [ "Ancient Drill", "Ancient Drill", "Circlet of Elements", "Curious Gear", "Doomed Compass", "Drakescale Boots", "Drakescale Helm", "Endurance Footwraps", "Flea-Bitten Shawl", "Frigid Blade", "Frigid Blade", "Fueled Falchion", "Helix Ring", "Minor Cure Potion", "Night Blade", "Ring of Skulls", "Robes of Summoning", "Second Skin", "Skullbane Axe", "Splintmail", "Staff of Xorn", "Steel Ring", "Sun Shield", "Tremor Blade", "Tremor Blade", "Wand of Frost", "Wand of Tremors" ],
     "sanctuary": 21,
     "specialConditions": {
       "ancientTechnology": false,
@@ -243,6 +267,6 @@
       "lowReputation": false,
       "retired": true
     },
-    "treasures": [ 21, 31, 46, 49 ]
+    "treasures": [ 21, 29, 31, 46, 49 ]
   }
 }
