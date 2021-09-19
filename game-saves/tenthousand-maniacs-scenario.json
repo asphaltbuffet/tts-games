@@ -112,7 +112,12 @@
     }
   }, {
     "id": "38",
-    "status": "incomplete"
+    "status": "attempted",
+    "treasure": {
+      "29": {
+        "looted": "true"
+      }
+    }
   }, {
     "id": "39",
     "status": "complete"
