@@ -45,7 +45,12 @@
     "status": "complete"
   }, {
     "id": "17",
-    "status": "incomplete"
+    "status": "complete",
+    "treasure": {
+      "71": {
+        "looted": "true"
+      }
+    }
   }, {
     "id": "18",
     "status": "complete"
@@ -154,6 +159,9 @@
     "id": "58",
     "status": "complete"
   }, {
+    "id": "64",
+    "status": "incomplete"
+  }, {
     "id": "65",
     "status": "complete"
   }, {
@@ -168,6 +176,9 @@
   }, {
     "id": "81",
     "status": "complete"
+  }, {
+    "id": "82",
+    "status": "incomplete"
   }, {
     "id": "83",
     "status": "complete"
